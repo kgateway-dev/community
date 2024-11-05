@@ -34,19 +34,19 @@ TODO: Document correct methods for reaching out
 2. Community/contributor meeting
 -->
 
-1. **Open an issue.** Open an issue about your bug in the k8sgateway/k8sgateway repo.
-2. **Message us on Slack.** Reach out to us to discuss your proposed changes.
-3. **Agree on implementation plan.** Write a plan for how this feature or bug fix should be implemented. Should this be one pull request or multiple incremental improvements? Who is going to do each part?
-4. **Submit a work-in-progress PR** It's important to get feedback as early as possible to ensure that any big improvements end up being merged. Submit a pull request and label it `work in progress` to start getting feedback.
-5. **Review.** At least one maintainer should sign off on the change before it’s merged. Look at the “code review” section below to learn about what we're looking for.
-6. **A maintainer will merge and release!**
+1. **Open an issue**: Open an issue about your bug in the k8sgateway/k8sgateway repo.
+2. **Message us on Slack**: Reach out to us to discuss your proposed changes.
+3. **Agree on implementation plan**: Write a plan for how this feature or bug fix should be implemented. Should this be one pull request or multiple incremental improvements? Who is going to do each part?
+4. **Submit a draft PR**: It's important to get feedback as early as possible to ensure that any big improvements end up being merged. Open a draft pull request and label it `work in progress` to start getting feedback.
+5. **Review**: At least one maintainer should sign off on the change before it’s merged. Look at the following [Code review](#code-review-guidelines) section to learn about what we're looking for.
+6. **Close out**: A maintainer will merge the PR and let you know about the next release plan.
 
 ## Code review guidelines
 
 It’s important that every piece of code in K8sGateway is reviewed by at least one maintainer familiar with that codebase.
 
-1. **Changelog** Every user-facing PR in K8sGateway needs a changelog entry.
-2. **CI check** A maintainer needs to kick off the CI process by commenting `/test` on your PR.
-3. **Testing** Please write tests for your changes. Bias towards fast / unit testing.
-4. **Comments** The code reviewer may leave comments to discuss changes. Minor preferences are often called out with `nit`.
+1. **Changelog**: The K8sGateway project uses [GitHub's automatically generated release notes](https://docs.github.com/en/repositories/releasing-projects-on-github/automatically-generated-release-notes) feature. As such, make sure that your PR description includes a clear, concise message of the change, including any user-facing steps to use the feature.
+2. **CI check**: A maintainer needs to kick off the CI process by commenting `/test` on your PR.
+3. **Testing**: Please write tests for your changes. Bias towards fast / unit testing.
+4. **Comments**: The code reviewer may leave comments to discuss changes. Minor preferences are often called out with `nit`.
 

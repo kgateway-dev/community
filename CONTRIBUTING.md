@@ -30,12 +30,11 @@ For significant changes to the codebase, it’s important to settle on a design 
 
 <!---
 TODO: Document correct methods for reaching out
-1. Slack channel in the CNCF org
-2. Community/contributor meeting
+1. Community/contributor meeting
 -->
 
 1. **Open an issue**: Open an issue about your bug in the k8sgateway/k8sgateway repo.
-2. **Message us on Slack**: Reach out to us to discuss your proposed changes.
+2. **Message us on Slack**: Reach out to us to discuss your proposed changes in our [CNCF slack channel, #k8sgateway](https://cloud-native.slack.com/archives/C080D3PJMS4).
 3. **Agree on implementation plan**: Write a plan for how this feature or bug fix should be implemented. Should this be one pull request or multiple incremental improvements? Who is going to do each part?
 4. **Submit a draft PR**: It's important to get feedback as early as possible to ensure that any big improvements end up being merged. Open a draft pull request and label it `work in progress` to start getting feedback.
 5. **Review**: At least one maintainer should sign off on the change before it’s merged. Look at the following [Code review](#code-review-guidelines) section to learn about what we're looking for.

@@ -14,7 +14,7 @@ We anticipate that most issues will be resolved by reaching consensus in our com
 
 - A simple majority decides the vote outcome.
 - A vote is cast when a project maintainer emotes 👍 or 👎 on the GitHub PR in dispute.
-- No single company should cast more than 5 votes. It is the responsibily of each company to determine which affiliated maintainers will vote.
+- No single company should cast more than 6 votes. It is the responsibility of each company to determine which affiliated maintainers will vote.
 - Voting must be open for at least 1 week or until everyone entitled to vote has voted.
 - The results will be tallied and commented in a PR approval message or in a closing comment.
 

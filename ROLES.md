@@ -19,3 +19,7 @@ Maintainers have made five significant contributions to the project in one or mo
 - Controller
 - Docs
 - Proxy
+
+## Maintainers Emerita
+
+If a maintainer has been inactive for more than 1 year, a member of the community may file a PR thanking the maintainer for their contributions and moving them to Emeritus status. The maintainer being honored may approve the PR to accept or leave a comment with an explanation for their absence. The maintainer being honored should be given generous time to respond before merging the organization change.

@@ -1,4 +1,4 @@
-# K8sGateway Community Roles
+# K8sGateway community roles
 
 This document describes the different individual roles community members can have, the requirements of each role, and the privileges that come with the role.
 
@@ -14,12 +14,12 @@ Reviewer is the first step towards becoming a maintainer. Reviewers should be ac
 
 Maintainers have made five significant contributions to the project in one or more areas. A maintainer should already be a reviewer in the respective area they seek to become a maintainer in.
 
-## Specialization Areas
+## Specialization areas
 
 - Controller
 - Docs
 - Proxy
 
-## Maintainers Emerita
+## Maintainers emerita
 
 If a maintainer has been inactive for more than 1 year, a member of the community may file a PR thanking the maintainer for their contributions and moving them to Emeritus status. The maintainer being honored may approve the PR to accept or leave a comment with an explanation for their absence. The maintainer being honored should be given generous time to respond before merging the organization change.

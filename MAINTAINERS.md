@@ -1,4 +1,4 @@
-# K8sGateway Maintainers
+# K8sGateway maintainers
 
 | Maintainer | GitHub ID | Specialization Areas | Company Affiliation |
 | ---- | ---- | ---- | ---- |

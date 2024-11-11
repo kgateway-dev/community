@@ -1,16 +1,17 @@
-# K8sGateway Governance
+# K8sGateway governance
 
 This document details the governance model for the K8sGateway Project.
 
-## Roles and Membership
+## Roles and membership
 
 
 Review the following files:
-* [`ROLES.md`](https://github.com/k8sgateway/community/blob/main/ROLES.md) for the different roles that you can have.
-* [`MAINTAINERS.md`](https://github.com/k8sgateway/community/blob/main/MAINTAINERS.md) for the project maintainers, including their organizational affiliation.
+
+- [`ROLES.md`](https://github.com/k8sgateway/community/blob/main/ROLES.md) for the different roles that you can have.
+- [`MAINTAINERS.md`](https://github.com/k8sgateway/community/blob/main/MAINTAINERS.md) for the project maintainers, including their organizational affiliation.
 
 
-## Conflict Resolution and Voting
+## Conflict resolution and voting
 
 We anticipate resolving most issues through consensus in the community. For the rare occasion when consensus is unclear, a public vote will be held. The following rules govern our voting process:
 
@@ -20,7 +21,7 @@ We anticipate resolving most issues through consensus in the community. For the 
 - Voting must be open for at least one week or until everyone entitled to vote has voted.
 - The results will be tallied and commented in a PR approval message or in a closing comment.
 
-## Changes to Governance
+## Changes to governance
 
 All changes to our governance model require a vote by the maintainers. The proposed change will be submitted as a PR against the K8sGateway community repository. Voting will proceed according to the rules established for simple conflict resolution, with the sole exception being the threshold for acceptance.
 

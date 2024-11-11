@@ -1,17 +1,21 @@
 # K8sGateway Community
 
-Welcome! K8sGateway is excited you are interested on our community.
+Welcome! K8sGateway is excited you are interested in our community.
 
-K8sGateway is a community dedicated to building a better API Gateway, based on the open standard [Kubernetes Gateway API](https://gateway-api.sigs.k8s.io). This repository contains helpful information regarding the structure and functioning of our community. Please explore the repository for more details about our community we are building and how to get involved.
+K8sGateway is an open source, cloud-native Layer 7 proxy that is based on the [Envoy](https://www.envoyproxy.io/). The K8sGateway project implements gateway routing by using [Kubernetes Gateway API](https://gateway-api.sigs.k8s.io/) resources.
+
+This repository contains helpful information regarding the structure and functioning of the K8sGateway community, including how to get involved.
 
 ## Community Meetings
 
-Please join us at our community meetings. You can find their details on our [calendar](https://calendar.google.com/calendar/u/1?cid=ZDI0MzgzOWExMGYwMzAxZjVkYjQ0YTU0NmQ1MDJmODA5YTBjZDcwZGI4ZTBhZGNhMzIwYWRlZjJkOTQ4MzU5Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+To join a community meeting, add the [K8sGateway calendar](https://calendar.google.com/calendar/u/1?cid=ZDI0MzgzOWExMGYwMzAxZjVkYjQ0YTU0NmQ1MDJmODA5YTBjZDcwZGI4ZTBhZGNhMzIwYWRlZjJkOTQ4MzU5Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to your Google account. Then, you can find event details on the calendar.
 
 ## Contributing
 
-Details about contributing to K8sGateway can be found [here](https://github.com/k8sgateway/community/blob/main/CONTRIBUTING.md).
+Review the following resources to contribute to the K8sGateway project.
+* For **code** contributions, review the [`CONTRIBUTING.md` file](https://github.com/k8sgateway/community/blob/main/CONTRIBUTING.md).
+* For **doc** contributions, review the [Doc contributions guide](https://k8sgateway.io/docs/reference/contribution/).
 
 ## Governance
 
-Details about our governance model can be found [here](https://github.com/k8sgateway/community/blob/main/GOVERNANCE.md).
+For the K8sGateway community's governance model, review the [`GOVERNANCE.md` file](https://github.com/k8sgateway/community/blob/main/GOVERNANCE.md).

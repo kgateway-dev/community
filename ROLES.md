@@ -12,7 +12,29 @@ Reviewer is the first step towards becoming a maintainer. Reviewers should be ac
 
 ## Maintainer
 
-Maintainers have made five significant contributions to the project in one or more areas. A maintainer should already be a reviewer in the respective area they seek to become a maintainer in.
+Becoming a maintainer is a significant step, however, it is not required to be a valued and contributing member of the community. Before applying to be a maintainer, you should meet the following criteria:
+
+- Be a reviewer for at least 6 months.
+- Remained active in the project. This can include contributing code or documentation, reviewing PRs, voting during conflict resolution, attending community meetings, etc.
+- Made 20 substantial contributions to the project in the area you seek to be a maintainer for.
+- Be knowledgable about the area of the project you seek to be a maintainer for.
+
+**Note**: Other maintainers in the area will review your application so it is beneficial if you built a relationship and established trust with one or more maintainers to ensure the best chances for success.
+
+<!---
+TODO: Add one ore more sections concerning the responsibilities of maintainers
+-->
+
+## Maintainer
+
+Becoming a maintainer is a significant step which is not required in order to be a valued and contributing member of the community. Before applying to be a maintainer you should meet the following criteria:
+
+- Be a reviewer for at least 6 months.
+- Remain active in the project. This may include contributing code or documentation, reviewing PRs, voting during conflict resolution, attending community meetings, etc.
+- Have made 20 substantial contributions to the project in the area you are seek to be a maintainer for.
+- Be knowledgable about the area of the project you seek to be a maintainer for.
+
+**Note**: Other maintainers in the area will review your criteria so it is beneficial to have built a relationship and established trust with one or more maintainers to ensure the best chances for success.
 
 ## Specialization areas
 
@@ -20,6 +42,6 @@ Maintainers have made five significant contributions to the project in one or mo
 - Docs
 - Proxy
 
-## Maintainers emerita
+### Maintainers emerita
 
-If a maintainer has been inactive for more than 1 year, a member of the community may file a PR thanking the maintainer for their contributions and moving them to [Emeritus](https://glossary.cncf.io/contributor-ladder/#stepping-downemeritus-process) status. The maintainer being honored may approve the PR to accept or leave a comment with an explanation for their absence. The maintainer being honored should be given generous time to respond before merging the organization change.
+If a maintainer has been inactive for more than 1 year, a member of the community may file a PR thanking the maintainer for their contributions and moving them to [Emeritus](https://glossary.cncf.io/contributor-ladder/#stepping-downemeritus-process) status. The maintainer being honored may approve the PR to accept or leave a comment with an explanation for their absence. The maintainer being honored should be given generous time to respond before merging the organization change. If inactivity becomes a concern for the project, but maintainers do not wish to leave the project entirely, they should step back to reviewer.

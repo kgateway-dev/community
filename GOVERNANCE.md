@@ -4,16 +4,18 @@ This document details the governance model for the K8sGateway Project.
 
 ## Roles and Membership
 
-Roles are described in our [Community Roles](https://github.com/k8sgateway/community/blob/main/ROLES.md) document.
-The list of current maintainers their organizational affiliations are kept in our [MAINTAINERS](https://github.com/k8sgateway/community/blob/main/MAINTAINERS.md) file.
+
+Review the following files:
+* [`ROLES.md`](https://github.com/k8sgateway/community/blob/main/ROLES.md) for the different roles that you can have.
+* [`MAINTAINERS.md`](https://github.com/k8sgateway/community/blob/main/MAINTAINERS.md) for the project maintainers, including their organizational affiliation.
 
 
 ## Conflict Resolution and Voting
 
-We anticipate that most issues will be resolved by reaching consensus in our community. For the rare occasion when consensus is unclear, a public vote will be held. The following rules govern our voting process:
+We anticipate resolving most issues through consensus in the community. For the rare occasion when consensus is unclear, a public vote will be held. The following rules govern our voting process:
 
 - A simple majority decides the vote outcome.
-- A vote is cast when a project maintainer emotes 👍 or 👎 on the GitHub PR in dispute.
+- A vote is cast when a project maintainer emotes thumbs-up or thumbs-down (👍 or 👎) on the GitHub PR in dispute.
 - No single company should cast more than six votes. It is the responsibility of each company to determine which affiliated maintainers will vote.
 - Voting must be open for at least one week or until everyone entitled to vote has voted.
 - The results will be tallied and commented in a PR approval message or in a closing comment.

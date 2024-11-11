@@ -1,6 +1,6 @@
 # K8sGateway Maintainers
 
-| Maintainer | GitHub ID | Specialization Area(s) | Company Affiliation |
+| Maintainer | GitHub ID | Specialization Areas | Company Affiliation |
 | ---- | ---- | ---- | ---- |
 Daneyon Hansen | danehans | Controller | Solo.io
 Jacob Bohanon | jbohanon | | Coinbase

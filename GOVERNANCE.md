@@ -21,6 +21,10 @@ We anticipate resolving most issues through consensus in the community. For the 
 - Voting must be open for at least one week or until everyone entitled to vote has voted.
 - The results will be tallied and commented in a PR approval message or in a closing comment.
 
+## Governance policies
+Below is a list of documents which define the governance policies for the project:
+- [Code of Conduct](./CODE-OF-CONDUCT.md)
+
 ## Changes to governance
 
 All changes to our governance model require a vote by the maintainers. The proposed change will be submitted as a PR against the K8sGateway community repository. Voting will proceed according to the rules established for simple conflict resolution, with the sole exception being the threshold for acceptance.

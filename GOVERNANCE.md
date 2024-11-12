@@ -30,6 +30,9 @@ Below is a list of documents which define the governance policies for the projec
 All changes to our governance model require a vote by the maintainers. The proposed change will be submitted as a PR against the K8sGateway community repository. Voting will proceed according to the rules established for simple conflict resolution, with the sole exception being the threshold for acceptance.
 
 - Any change requires a 2/3 super majority to be accepted.
+## Vendor-neutrality
+
+K8sGateway is committed to [vendor-neutrality](https://contribute.cncf.io/maintainers/community/vendor-neutrality/) and our governance process has been designed to limit the influence of individual companies in furtherance of this goal.
 
 <!---
 TODO: Enumerate what, precisely, constitutes a change in governance. I think it's clear editing this file, in any significant way, would count. Adjusting at least certain things wrt to the maintainer lifecycle also would likely constitute a governance change because this would directly impact who is, and is not, able to vote as well as who may be eligable or not in the future.

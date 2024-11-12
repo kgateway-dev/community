@@ -12,7 +12,7 @@ If you're interested in participating with the K8sGateway community, come talk t
 
 * We are available in the [CNCF #k8sgateway slack channel](https://cloud-native.slack.com/archives/C080D3PJMS4)
 * Subscribe to the [K8sGateway calendar](https://calendar.google.com/calendar/u/1?cid=ZDI0MzgzOWExMGYwMzAxZjVkYjQ0YTU0NmQ1MDJmODA5YTBjZDcwZGI4ZTBhZGNhMzIwYWRlZjJkOTQ4MzU5Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-* To submit security issues, please follow our [vulnerability disclosure best practices](CVE.md)
+* To report security issues, please follow our [vulnerability disclosure best practices](CVE.md)
 * Find more information on the [K8sGateway Website](https://k8sgateway.io/)
 
 ## Community Meetings

@@ -3,7 +3,7 @@
 | Maintainer | GitHub ID | Specialization Areas | Company Affiliation |
 | ---- | ---- | ---- | ---- |
 Daneyon Hansen | danehans | Controller | Solo.io
-Jacob Bohanon | jbohanon | | Coinbase
+Jacob Bohanon | jbohanon | Controller, Proxy  | Coinbase
 Jenny Shu | jenshu | Controller | Solo.io
 Nadine Spies | Nadine2016 | Docs | Solo.io
 Nathan Fudenberg | nfuden | Controller, Proxy | Solo.io

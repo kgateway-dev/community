@@ -12,6 +12,7 @@ Lin Sun | linsun | Community | Solo.io
 Nadine Spies | Nadine2016 | Docs | Solo.io
 Nathan Fudenberg | nfuden | Controller, Proxy | Solo.io
 Sam Heilbron | sam-heilbron | | Solo.io
+Steven Landow | stevenctl | Controller | Solo.io
 Tyler Schade | tjons | Controller | GEICO Insurance
 Yuval Kohavi | yuval-k | Controller, Proxy | Solo.io
 

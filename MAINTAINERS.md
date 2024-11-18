@@ -2,6 +2,10 @@
 
 ## Active
 
+<!---
+Please keep the table sorted.
+-->
+
 | Maintainer | GitHub ID | Specialization Areas | Company Affiliation |
 | ---- | ---- | ---- | ---- |
 Daneyon Hansen | danehans | Controller | Solo.io

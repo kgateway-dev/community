@@ -19,5 +19,6 @@ Nathan Fudenberg | nfuden | Controller, Proxy | Solo.io
 Sam Heilbron | sam-heilbron | | Solo.io
 Steven Landow | stevenctl | Controller | Solo.io
 Tyler Schade | tjons | Controller | GEICO Insurance
+Will Rigby-Hall | williamgrh | Docs | Solo.io
 Yuval Kohavi | yuval-k | Controller, Proxy | Solo.io
 

@@ -8,6 +8,7 @@ Daneyon Hansen | danehans | Controller | Solo.io
 Eitan Yarmush | EItanya | Controller, Proxy | Solo.io
 Jacob Bohanon | jbohanon | Controller, Proxy  | Coinbase
 Jenny Shu | jenshu | Controller | Solo.io
+Lin Sun | linsun | Community | Solo.io
 Nadine Spies | Nadine2016 | Docs | Solo.io
 Nathan Fudenberg | nfuden | Controller, Proxy | Solo.io
 Sam Heilbron | sam-heilbron | | Solo.io

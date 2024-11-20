@@ -22,7 +22,7 @@ Lin Sun | linsun | Community | Solo.io
 Nadine Spies | Nadine2016 | Docs | Solo.io
 Nathan Fudenberg | nfuden | Controller, Proxy | Solo.io
 Nina Polshakova | npolshakova | Controller | Solo.io
-Sai Ekbote | saiskee | Controller, Proxy | _unaffiliated_
+Sai Ekbote | saiskee | Controller, Proxy | _unaffiliated_ <!--TODO: correct affiliation -->
 Sam Heilbron | sam-heilbron | Controller | Solo.io
 Scott Weiss | ilackarms | Controller | Solo.io
 Seth Heidkamp | sheidkamp | Controller | Solo.io

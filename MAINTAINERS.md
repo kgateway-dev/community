@@ -12,6 +12,7 @@ Ashley Wang | ashleywang1 | Controller | Solo.io
 Daneyon Hansen | danehans | Controller | Solo.io
 Eitan Yarmush | EItanya | Controller, Proxy | Solo.io
 Jacob Bohanon | jbohanon | Controller, Proxy  | Coinbase
+Jahvon Dockery | jahvon | Controller | _unaffiliated_
 Jenny Shu | jenshu | Controller, Community | Solo.io
 Kevin Dorosh | kdorosh | Controller | _unaffiliated_
 Lawrence Gadban | lgadban | Controller | Solo.io
@@ -28,7 +29,6 @@ Steven Landow | stevenctl | Controller | Solo.io
 Tyler Schade | tjons | Controller | GEICO Insurance
 Will Rigby-Hall | williamgrh | Docs | Solo.io
 Yuval Kohavi | yuval-k | Controller, Proxy | Solo.io
-Jahvon Dockery | jahvon | Controller | _unaffiliated_
 
 ## Emeritus
 

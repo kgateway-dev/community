@@ -1,5 +1,7 @@
 # K8sGateway Community
 
+# 🚧 NOTE: This project is in the process of being donated to the CNCF and not affiliated with the Kubernetes project. 🚧
+
 Welcome! K8sGateway is excited you are interested in our community.
 
 K8sGateway is an open source, cloud-native Layer 7 proxy that is based on [Envoy](https://www.envoyproxy.io/). The K8sGateway project implements gateway routing by using [Kubernetes Gateway API](https://gateway-api.sigs.k8s.io/) resources.

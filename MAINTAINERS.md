@@ -9,6 +9,7 @@ Please keep the table sorted.
 | Maintainer | GitHub ID | Specialization Areas | Company Affiliation |
 | ---- | ---- | ---- | ---- |
 Ashley Wang | ashleywang1 | Controller | Solo.io
+Craig Box | craigbox | Community, Docs | Solo.io
 Daneyon Hansen | danehans | Controller, Community | Solo.io
 Eitan Yarmush | EItanya | Controller, Proxy | Solo.io
 Jacob Bohanon | jbohanon | Controller, Proxy  | Coinbase

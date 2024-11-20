@@ -14,7 +14,7 @@ Eitan Yarmush | EItanya | Controller, Proxy | Solo.io
 Jacob Bohanon | jbohanon | Controller, Proxy  | Coinbase
 Jahvon Dockery | jahvon | Controller | _unaffiliated_
 Jenny Shu | jenshu | Controller, Community | Solo.io
-Kevin Dorosh | kdorosh | Controller | _unaffiliated_
+Kevin Dorosh | kdorosh | Controller, Proxy | _unaffiliated_
 Lawrence Gadban | lgadban | Controller | Solo.io
 Lin Sun | linsun | Community | Solo.io
 Nadine Spies | Nadine2016 | Docs | Solo.io

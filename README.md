@@ -1,6 +1,6 @@
 # K8sGateway Community
 
-# 🚧 NOTE: This project is in the process of being donated to the CNCF and not affiliated with the Kubernetes project. 🚧
+# 🚧 NOTE: This project is in the process of being donated to the CNCF and is not affiliated with the Kubernetes project. 🚧
 
 Welcome! K8sGateway is excited you are interested in our community.
 

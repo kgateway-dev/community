@@ -14,7 +14,7 @@ Daneyon Hansen | danehans | Controller, Community | Solo.io
 Eitan Yarmush | EItanya | Controller, Proxy | Solo.io
 Ian Rudie | ilrudie | Community | Solo.io
 Jacob Bohanon | jbohanon | Controller, Proxy  | Coinbase
-Jahvon Dockery | jahvon | Controller | _unaffiliated_
+Jahvon Dockery | jahvon | Controller | _unaffiliated_ <!--TODO: correct affiliation -->
 Jenny Shu | jenshu | Controller, Community | Solo.io
 Kevin Dorosh | kdorosh | Controller, Proxy | _unaffiliated_
 Lawrence Gadban | lgadban | Controller | Solo.io

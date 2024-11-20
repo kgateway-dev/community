@@ -29,6 +29,7 @@ Tyler Schade | tjons | Controller | GEICO Insurance
 Will Rigby-Hall | williamgrh | Docs | Solo.io
 Yuval Kohavi | yuval-k | Controller, Proxy | Solo.io
 Jahvon Dockery | jahvon | Controller | _unaffiliated_
+
 ## Emeritus
 
 | Name | GitHub ID |

@@ -22,6 +22,7 @@ Nina Polshakova | npolshakova | Controller | Solo.io
 Sai Ekbote | saiskee | Controller | _unaffiliated_
 Sam Heilbron | sam-heilbron | Controller | Solo.io
 Scott Weiss | ilackarms | Controller | Solo.io
+Seth Heidkamp | sheidkamp | Controller | Solo.io
 Shashank Ram | shashankram | Controller | Solo.io
 Steven Landow | stevenctl | Controller | Solo.io
 Tyler Schade | tjons | Controller | GEICO Insurance

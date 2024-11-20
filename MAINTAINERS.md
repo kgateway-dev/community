@@ -12,7 +12,7 @@ Ashley Wang | ashleywang1 | Controller | Solo.io
 Daneyon Hansen | danehans | Controller | Solo.io
 Eitan Yarmush | EItanya | Controller, Proxy | Solo.io
 Jacob Bohanon | jbohanon | Controller, Proxy  | Coinbase
-Jenny Shu | jenshu | Controller | Solo.io
+Jenny Shu | jenshu | Controller, Community | Solo.io
 Kevin Dorosh | kdorosh | Controller | _unaffiliated_
 Lawrence Gadban | lgadban | Controller | Solo.io
 Lin Sun | linsun | Community | Solo.io

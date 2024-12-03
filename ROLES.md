@@ -14,10 +14,10 @@ Reviewer is the first step towards becoming a maintainer. Reviewers should be ac
 
 Becoming a maintainer is a significant step, however, it is not required to be a valued and contributing member of the community. Before applying to be a maintainer, you should meet the following criteria:
 
-- Be a reviewer for at least 6 months.
-- Remained active in the project. This can include contributing code or documentation, reviewing PRs, voting during conflict resolution, attending community meetings, etc.
-- Made 20 substantial contributions to the project in the area you seek to be a maintainer for.
-- Be knowledgable about the area of the project you seek to be a maintainer for.
+* Be a reviewer for at least 6 months.
+* Remained active in the project. This can include contributing code or documentation, reviewing PRs, voting during conflict resolution, attending community meetings, etc.
+* Made 20 substantial contributions to the project in the area you seek to be a maintainer for.
+* Be knowledgable about the area of the project you seek to be a maintainer for.
 
 **Note**: Other maintainers in the area will review your application so it is beneficial if you built a relationship and established trust with one or more maintainers to ensure the best chances for success.
 
@@ -27,10 +27,10 @@ TODO: Add one ore more sections concerning the responsibilities of maintainers
 
 ## Specialization areas
 
-- Community
-- Controller
-- Docs
-- Proxy
+* Community
+* Controller
+* Docs
+* Proxy
 
 ### Maintainers emerita
 

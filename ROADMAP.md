@@ -1,21 +1,20 @@
 # K8sGateway roadmap
 
-This document provides a high level overview of major work being planned, designed or implemented. This is the result of feedback from the community and agreed upon by project maintainers. 
+This document provides a high level overview of major work being planned, designed or implemented. This is the result of feedback from the community and agreed upon by project maintainers.
 
 ## Summary
 
 | Feature | Status |
 | ---- | ---- |
-new extension APIs to supplement Kubernetes Gateway API | Planned
-AI/LLM provider support (AI upstreams) | In Design
-Kubernetes Gateway API 1.2 support | Implementation In Progress
-K8sGateway as Istio Waypoint provider | Planned
-Determine future of the classic API | Planned
-Rename CLI | Planned
-Build, Test and Release | Planned
-Improve Rate Limit Server UX | Planned
-Improved status writing | Planned
-
+| new extension APIs to supplement Kubernetes Gateway API | Planned |
+| AI/LLM provider support (AI upstreams) | In Design |
+| Kubernetes Gateway API 1.2 support | Implementation In Progress |
+| K8sGateway as Istio Waypoint provider | Planned |
+| Determine future of the classic API | Planned |
+| Rename CLI | Planned |
+| Build, Test and Release | Planned |
+| Improve Rate Limit Server UX | Planned |
+| Improved status writing | Planned |
 
 ## Get involved
 

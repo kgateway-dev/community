@@ -23,8 +23,8 @@ just make sure that you include a test that verifies the bug you are fixing.
 
 This includes:
 
-- Big bug fixes
-- New features
+* Big bug fixes
+* New features
 
 For significant changes to the codebase, it’s important to settle on a design before starting on the implementation. [Reaching out to us in CNCF slack](https://cloud-native.slack.com/archives/C080D3PJMS4) early will help minimize the amount of possible wasted effort and will ensure that major improvements are given enough attention.
 
@@ -49,4 +49,3 @@ It’s important that every piece of code in K8sGateway is reviewed by at least 
 3. **Testing**: Please write tests for your changes. Bias towards fast / unit testing.
 4. **Comments**: The code reviewer may leave comments to discuss changes. Minor preferences are often called out with `nit`.
 5. **PR Description**: Is well formatted, concise and descriptive enough to be used as a release note.
-

@@ -35,3 +35,4 @@ TODO: Add one ore more sections concerning the responsibilities of maintainers
 ### Maintainers emerita
 
 If a maintainer has been inactive for more than 1 year, a member of the community may file a PR thanking the maintainer for their contributions and moving them to [Emeritus](https://glossary.cncf.io/contributor-ladder/#stepping-downemeritus-process) status. The maintainer being honored may approve the PR to accept or leave a comment with an explanation for their absence. The maintainer being honored should be given generous time to respond before merging the organization change. If inactivity becomes a concern for the project, but maintainers do not wish to leave the project entirely, they should step back to reviewer.
+

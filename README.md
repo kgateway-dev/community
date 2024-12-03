@@ -31,3 +31,4 @@ Review the following resources to contribute to the K8sGateway project.
 ## Governance
 
 For the K8sGateway community's governance model, review the [`GOVERNANCE.md` file](https://github.com/k8sgateway/community/blob/main/GOVERNANCE.md).
+

@@ -24,25 +24,25 @@ The K8sGateway project embraces the following values:
 
 Our governance builds on top of definitions from other documents, review the following files for relevant information:
 
-- [`ROLES.md`](./ROLES.md) for the different roles with the project.
-- [`MAINTAINERS.md`](./MAINTAINERS.md) for the project maintainers, including their organizational affiliation.
+- [ROLES.md](./ROLES.md) for the different roles with the project.
+- [MAINTAINERS.md](./MAINTAINERS.md) for the project maintainers, including their organizational affiliation.
 - [Code of Conduct](./CODE-OF-CONDUCT.md) for our code of conduct.
 
+## Voting
 
-## Voting 
-
-While most business in K8sGateway is conducted by "[lazy consensus](https://community.apache.org/committers/lazyConsensus.html)", 
+While most business in K8sGateway is conducted by "[lazy consensus](https://community.apache.org/committers/lazyConsensus.html)",
 periodically the Maintainers may need to vote on specific actions or changes. The following rules govern our voting process, unless otherwise stated for a specific purpose.
 
+- A vote begins when an issue with the label `call to vote` is submitted.
 - A simple majority decides the vote outcome.
-- A vote is cast when a project maintainer emotes thumbs-up or thumbs-down (👍 or 👎) on the GitHub PR in dispute.
+- A vote is cast when a project maintainer emotes thumbs-up or thumbs-down (👍 or 👎) on the GitHub "call to vote" issue.
 - No single company should cast more than six votes. It is the responsibility of each company to determine which affiliated maintainers will vote.
 - Voting must be open for at least one week or until the required threshold is met.
 
 ## Changes to governance
 
 <!---
-TODO: Enumerate what, precisely, constitutes a change in governance. I think it's clear editing this file, in any significant way, would count. Adjusting at least certain things wrt to the maintainer lifecycle also would likely constitute a governance change because this would directly impact who is, and is not, able to vote as well as who may be eligable or not in the future.
+TODO: Enumerate what, precisely, constitutes a change in governance. I think it's clear editing this file, in any significant way, would count. Adjusting at least certain things wrt to the maintainer lifecycle also would likely constitute a governance change because this would directly impact who is, and is not, able to vote as well as who may be eligible or not in the future.
 -->
 All changes to our governance model require a vote by the maintainers. The proposed change will be submitted as a PR against the K8sGateway community repository. Voting will proceed according to the rules established for simple conflict resolution, with the sole exception being the threshold for acceptance.
 
@@ -51,4 +51,3 @@ All changes to our governance model require a vote by the maintainers. The propo
 ## Vendor-neutrality
 
 K8sGateway is committed to [vendor-neutrality](https://contribute.cncf.io/maintainers/community/vendor-neutrality/). Our governance process has been designed to limit the influence of individual companies in furtherance of this goal.
-

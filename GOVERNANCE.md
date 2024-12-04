@@ -1,6 +1,6 @@
 # K8sGateway governance
 
-K8sGateway is dedicated to building a feature-rich, fast and flexible ingress controller and next-generation API gateway. This governance document details how the project is run.
+K8sGateway is dedicated to building a feature-rich, fast and flexible next-generation API gateway. This governance document details how the project is run.
 
 ## Values
 

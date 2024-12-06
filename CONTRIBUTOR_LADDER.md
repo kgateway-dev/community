@@ -39,12 +39,13 @@ An Organization Member must meet the responsibilities and has the requirements o
 * Responsibilities include:
     * Continues to contribute regularly, as demonstrated by having at least 3 GitHub contributions per year, as shown by Devstats.
 * Requirements:
-    * Must have successful contributions to the project, including at least one of the following:
-        * 1 merged PR.
+    * Must have successful contributions to the project, including at least one merged PR.
     * Member of the #k8sgateway channel on the [CNCF slack](https://slack.cncf.io).
+    * Must have enabled 2FA on the GitHub account.
 * Privileges:
-    * May be assigned Issues and Reviews
-    * May give commands to CI/CD automation
+    * May be assigned Issues and Reviews.
+    * May give commands to CI/CD automation.
+    * May label/triage issues.
 
 The process for a Contributor to become an Organization Member is as follows:
 
@@ -57,7 +58,6 @@ Company affiliation:
 
 Requirements:
 
-- [ ] I have reviewed the the [CNCF CoC](https://github.com/cncf/foundation/blob/main/code-of-conduct.md)
 - [ ] I have reviewed the project [contributing guide](CONTRIBUTING.md)
 - [ ] I have enabled 2FA on my GitHub account
 - [ ] I have joined #k8sgateway channel on the [CNCF slack](https://slack.cncf.io)

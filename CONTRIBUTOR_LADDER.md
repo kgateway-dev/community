@@ -47,23 +47,7 @@ An Organization Member must meet the responsibilities and has the requirements o
     * May give commands to CI/CD automation.
     * May label/triage issues.
 
-If you'd like to become a member of the k8sgateway organization on GitHub, please fill out this form and submit it as a GitHub issue in the community repo. Give us a few days to review and you should receive an invitation to join.
-
-----------------------
-GitHub user id:
-
-Company affiliation:
-
-Requirements:
-
-- [ ] I have reviewed the project [contributing guide](CONTRIBUTING.md)
-- [ ] I have enabled 2FA on my GitHub account
-- [ ] I have joined #k8sgateway channel on the [CNCF slack](https://slack.cncf.io)
-
-Provide a link to at least one PR that you have successfully pushed to one
-of the repos:
-
-----------------------
+If you'd like to become a member of the k8sgateway organization on GitHub, please open a GitHub issue in the community repository following the [template](.github/ISSUE_TEMPLATE/apply-to-be-a-member.md).
 
 ### Reviewer
 

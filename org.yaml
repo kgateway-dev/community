@@ -26,28 +26,37 @@ orgs:
       community-maintainers:
         description: ""
         members:
-        - craigbox # Solo.io
-        - danehans # Solo.io
-        - ilrudie # Solo.io
-        - jenshu # Solo.io
-        - linsun # Solo.io
+        - craigbox
+        - danehans
+        - ilrudie
+        - jenshu
+        - linsun
         privacy: closed
         repos:
           community: maintain
       controller-maintainers:
         description: ""
         members:
-        - danehans # Solo.io
-        - jenshu # Solo.io
-        - lgadban # Solo.io
-        - nfuden # Solo.io
-        - sam-heilbron # Solo.io
-        - shashankram # Solo.io
-        - sheidkamp # Solo.io
-        - stevenctl # Solo.io
-        - yuval-k # Solo.io
+        - danehans
+        - jenshu
+        - lgadban
+        - nfuden
+        - sam-heilbron
+        - shashankram
+        - sheidkamp
+        - stevenctl
+        - yuval-k
         privacy: closed
         repos:
           k8sgateway: maintain
-
+      documentation-maintainers:
+        description: ""
+        members:
+        - artberger
+        - craigbox
+        - Nadine2016
+        - williamgrh
+        privacy: closed
+        repos:
+          k8sgateway.io: maintain
 

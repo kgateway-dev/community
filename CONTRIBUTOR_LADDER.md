@@ -27,7 +27,7 @@ A Contributor contributes directly to the project and adds value to it. Contribu
     * Answer questions from other community members
     * Submit feedback on issues and PRs
     * Test releases and patches and submit reviews
-    * Run or helps run events
+    * Run or help run events
     * Promote the project in public
 
 ### Organization Member

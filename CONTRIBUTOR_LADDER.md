@@ -108,7 +108,7 @@ A Maintainer must meet the responsibilities and requirements of a Reviewer, plus
     * Have a vote in Maintainer decision-making discussions
     
 Process of becoming a maintainer:
-1. Any current Maintainer may nominate a current Reviewer to become a new Maintainer, by opening a PR against the root of the [TODO: main repository name] adding the nominee as an Approver in the OWNERS file.
+1. Any current Maintainer may nominate a current Reviewer to become a new Maintainer, by opening a PR against the root of the community repository adding the nominee as an Approver in the OWNERS file.
 2. The nominee will add a comment to the PR testifying that they agree to all requirements of becoming a Maintainer.
 3. At least 2 of the current Maintainers for the part of the project must then approve the PR, along no objections from other maintainers.
 

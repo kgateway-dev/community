@@ -20,5 +20,4 @@ Requirements:
 - [ ] I have enabled 2FA on my GitHub account
 - [ ] I have joined #k8sgateway channel on the [CNCF slack](https://slack.cncf.io)
 
-Provide a link to at least one PR that you have successfully pushed to one
-of the repos:
+Provide a link to at least one PR that you have successfully pushed to one of the project's repos:

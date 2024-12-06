@@ -94,7 +94,7 @@ The process of becoming a Reviewer is:
 
 ### Maintainer
 
-Maintainers are very established contributors who are responsible for the entire project. As such, they have the ability to approve PRs against any area of the project, and are expected to participate in making decisions about the strategy and priorities of the project.
+Maintainers are very established contributors who are responsible for the entire project. As such, they have the ability to approve PRs against any area of the repository or repositories they maintain, and are expected to participate in making decisions about the strategy and priorities of the project.
 
 A Maintainer must meet the responsibilities and requirements of a Reviewer, plus:
 

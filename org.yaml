@@ -1,0 +1,53 @@
+orgs:
+  k8sgateway:
+    admins:
+    - ilevine
+    - ilrudie
+    - linsun
+    - nfuden
+    - sam-heilbron
+    - williamgrh
+    - yuval-k
+    members:
+    - artberger
+    - craigbox
+    - danehans
+    - jbohanon
+    - jenshu
+    - josh-pritchard
+    - kevin-shelaga
+    - lgadban
+    - Nadine2016
+    - shashankram
+    - sheidkamp
+    - Sodman
+    - stevenctl
+    teams:
+      community-maintainers:
+        description: ""
+        members:
+        - craigbox # Solo.io
+        - danehans # Solo.io
+        - ilrudie # Solo.io
+        - jenshu # Solo.io
+        - linsun # Solo.io
+        privacy: closed
+        repos:
+          community: maintain
+      controller-maintainers:
+        description: ""
+        members:
+        - danehans # Solo.io
+        - jenshu # Solo.io
+        - lgadban # Solo.io
+        - nfuden # Solo.io
+        - sam-heilbron # Solo.io
+        - shashankram # Solo.io
+        - sheidkamp # Solo.io
+        - stevenctl # Solo.io
+        - yuval-k # Solo.io
+        privacy: closed
+        repos:
+          k8sgateway: maintain
+
+

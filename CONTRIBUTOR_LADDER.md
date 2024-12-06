@@ -47,8 +47,6 @@ An Organization Member must meet the responsibilities and has the requirements o
     * May give commands to CI/CD automation.
     * May label/triage issues.
 
-The process for a Contributor to become an Organization Member is as follows:
-
 If you'd like to become a member of the k8sgateway organization on GitHub, please fill out this form and submit it as a GitHub issue in the community repo. Give us a few days to review and you should receive an invitation to join.
 
 ----------------------

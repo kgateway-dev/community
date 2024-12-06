@@ -19,8 +19,8 @@ Each of the contributor roles below is organized into lists of three types of th
 A Contributor contributes directly to the project and adds value to it. Contributions need not be code. People at the Contributor level may be new contributors, or they may only contribute occasionally.
 
 * Responsibilities include:
-    * Follow the [CNCF CoC](https://github.com/cncf/foundation/blob/main/code-of-conduct.md)
-    * Follow the project [contributing guide](CONTRIBUTING.md)
+    * Following the [CNCF CoC](https://github.com/cncf/foundation/blob/main/code-of-conduct.md)
+    * Following the project [contributing guide](CONTRIBUTING.md)
 * Requirements (one or several of the below):
     * Report issues
     * Show up at meetings, takes notes

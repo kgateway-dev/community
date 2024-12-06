@@ -70,7 +70,7 @@ Reviewers have all the rights and responsibilities of an Organization Member, pl
 
 The process of becoming a Reviewer is:
 1. The contributor is nominated by opening a PR against the appropriate repository, which adds their GitHub username to the OWNERS file for one or more directories.
-2. At least two members of the team that owns that repository or main directory, who are already Approvers, approve the PR.
+2. At least two members of the team that owns that repository or main directory, who are already maintainers, approve the PR.
 
 
 ### Maintainer

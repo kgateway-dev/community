@@ -9,7 +9,7 @@ Here are some of the ways you can contribute:
 * [Big pull requests](#big-prs)
 * [Code review guidelines](#code-review-guidelines)
 
-Refer to the [contributing ladder doc](CONTRIBUTING.md) to understand the roles and contribution ladder within the community.
+Refer to the [contribution guide](CONTRIBUTING.md) to understand the roles and contributor ladder within the project.
 
 ## Filing issues
 

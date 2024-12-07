@@ -1,0 +1,21 @@
+name: Manage K8sGateway Org
+on:
+  push:
+    branches:
+    - main
+    paths:
+    - org.yaml
+jobs:
+  prep:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout community repo
+      uses: actions/checkout@v4
+    - name: create token
+      run: |
+        echo $GH_TOK >> ./GH_TOK
+      env:
+        GH_TOK: ${{secrets.GATEWAYBOT}}
+    - name: update org
+      run: |
+        script/org/update.sh # --confirm

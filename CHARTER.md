@@ -6,7 +6,7 @@ The K8sGateway project strives to provide the best API Gateway for Kubernetes.
 
 ## Scope
 
-K8sGateway is a control plane and data plane built for Kubernetes which implements the Kubernetes Gateway API standard for traffic routing. Deployment on other platforms is not tested, nor supported in any way by the K8sGateway community but our gateway can handle traffic for a wide variety of destination platforms. Our core focus is on building a reliable, performant control plane with limited extensions to our shipped Envoy proxy data plane.
+K8sGateway is a control plane and data plane built for Kubernetes which implements the Kubernetes Gateway API standard for traffic routing. Deployment of the control plane on other platforms is not tested, nor supported in any way by the K8sGateway community but our gateway can handle traffic for a wide variety of destination platforms. Our core focus is on building a reliable, performant control plane with limited extensions to our shipped Envoy proxy data plane.
 
 ## Values
 

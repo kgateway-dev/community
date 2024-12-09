@@ -2,17 +2,17 @@
 
 ## Mission 
 
-K8sGateway is an open source, next-generation API Gateway that is based on Envoy Proxy. The K8sGateway project implements gateway routing by using Kubernetes Gateway API resources with support for rich extension APIs to provide a richly-featured, performant and scalable cloud-native API Gateway.
+The K8sGateway project strives to provide the best API Gateway for Kubernetes.
 
 ## Scope
 
-K8sGateway is a control plane and data plane built for Kubernetes which implements the Kubernetes Gateway API standard for traffic routing. Deployment on other platforms is not tested, nor supported in any way by the K8sGateway community but our gateway can handle traffic for a wide variety of destination platforms. Our core focus is on building a reliable, performant control plane with limitted extensions to our shipped Envoy proxy data plane.
+K8sGateway is a control plane and data plane built for Kubernetes which implements the Kubernetes Gateway API standard for traffic routing. Deployment on other platforms is not tested, nor supported in any way by the K8sGateway community but our gateway can handle traffic for a wide variety of destination platforms. Our core focus is on building a reliable, performant control plane with limited extensions to our shipped Envoy proxy data plane.
 
 ## Values
 
 ### Inclusive
 
-K8sGateway is maintained by a capable group of engineers with deep experience building proven control planes and proxies but without diverse input this project can never be at its best. We strive to build an inclusive community where all good-faith input is appreciated and diverse opinions and contributes are welcomed.
+K8sGateway was initially created by a capable group of engineers with deep experience building proven control planes and proxies but without diverse input this project can never be at its best. We strive to build an inclusive community where all good-faith input is appreciated and diverse opinions and contributes are welcomed.
 
 ### Merit
 

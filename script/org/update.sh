@@ -23,11 +23,13 @@ readonly BIN_PATH="${REPO_ROOT}/bin"
 
 cmd="${BIN_PATH}/peribolos"
 
-# ensure peribolos is installed
-if [ ! -x "${cmd}" ]; then
-  echo "${cmd} is not executable. Trying to install."
-  GOBIN=${BIN_PATH} go install sigs.k8s.io/prow/cmd/peribolos@main
+# remove any existing peribolos, always install to prevent execution of an unintended file 
+if [ -e "${cmd}" ]; then
+  rm "${cmd}"
 fi
+
+# install peribolos
+GOBIN=${BIN_PATH} go install sigs.k8s.io/prow/cmd/peribolos@main
 
 # maybe add --ignore-invitees
 args=(

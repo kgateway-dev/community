@@ -33,7 +33,7 @@ Our governance builds on top of definitions from other documents, review the fol
 While most business in K8sGateway is conducted by "[lazy consensus](https://community.apache.org/committers/lazyConsensus.html)",
 periodically the Maintainers may need to vote on specific actions or changes. The following rules govern our voting process, unless otherwise stated for a specific purpose.
 
-* A vote begins when an issue with the label `call to vote` is submitted.
+* A vote begins when a PR that has a comment with the label `up-for-vote` is submitted.
 * A simple majority decides the vote outcome.
 * A vote is cast when a project maintainer emotes thumbs-up or thumbs-down (👍 or 👎) on the GitHub "call to vote" issue.
 * No single company should cast more than six votes. It is the responsibility of each company to determine which affiliated maintainers will vote.

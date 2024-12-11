@@ -7,3 +7,4 @@
 # sensitive directories require approval from a permanent admin
 /.github/** @ilevine @ilrudie @linsun @yuval-k
 /script/** @ilevine @ilrudie @linsun @yuval-k
+/org.yaml @ilevine @ilrudie @linsun @yuval-k

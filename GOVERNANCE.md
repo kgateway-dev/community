@@ -34,7 +34,7 @@ While most business in K8sGateway is conducted by "[lazy consensus](https://comm
 periodically the Maintainers may need to vote on specific actions or changes. The following rules govern our voting process, unless otherwise stated for a specific purpose.
 
 * A vote begins when a PR that has a comment with the label `up-for-vote` is submitted.
-* A simple majority decides the vote outcome.
+* A simple majority of eligible votes decides the vote outcome.
 * A vote is cast when a project maintainer emotes thumbs-up or thumbs-down (👍 or 👎) on the GitHub "call to vote" issue.
 * No single company should cast more than six votes. It is the responsibility of each company to determine which affiliated maintainers will vote.
 * Voting must be open for at least one week or until the required threshold is met.

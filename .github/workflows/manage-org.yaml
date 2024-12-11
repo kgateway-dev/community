@@ -6,16 +6,15 @@ on:
     paths:
     - org.yaml
 jobs:
-  prep:
+  manage-org:
     runs-on: ubuntu-latest
     steps:
     - name: checkout community repo
       uses: actions/checkout@v4
-    - name: create token
-      run: |
-        echo $GH_TOK >> ./GH_TOK
+    - name: update org
       env:
         GH_TOK: ${{secrets.GATEWAYBOT}}
-    - name: update org
       run: |
+        echo $GH_TOK >> ./GH_TOK
         script/org/update.sh # --confirm
+        rm ./GH_TOK

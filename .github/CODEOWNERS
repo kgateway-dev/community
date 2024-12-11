@@ -1,2 +1,9 @@
+# Order is important; the last matching pattern takes the most
+# precedence.
+ 
 # community maintainers own all files in the repository
 * @k8sgateway/community-maintainers
+
+# sensitive directories require approval from a permanent admin
+/.github/** @ilevine @ilrudie @linsun @yuval-k
+/script/** @ilevine @ilrudie @linsun @yuval-k

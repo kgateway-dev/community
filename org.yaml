@@ -59,4 +59,8 @@ orgs:
         privacy: closed
         repos:
           k8sgateway.io: maintain
-
+      notify-call-to-vote:
+        description: This team grants no permissions, it should be notified of all votes.
+        members:
+        - ilrudie
+        privacy: closed

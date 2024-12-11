@@ -12,7 +12,7 @@ K8sGateway is a control plane and data plane built for Kubernetes which implemen
 
 ### Inclusive
 
-K8sGateway was initially created by a capable group of engineers with deep experience building proven control planes and proxies but without diverse input this project can never be at its best. We strive to build an inclusive community where all good-faith input is appreciated and diverse opinions and contributes are welcomed.
+K8sGateway was initially created by a capable group of engineers with deep experience building proven control planes and proxies but without diverse input this project can never be at its best. We strive to build an inclusive community where all good-faith input is appreciated and diverse opinions and contributions are welcomed.
 
 ### Merit
 

@@ -5,6 +5,7 @@ Excited about K8sGateway and want to help make it better?
 Here are some of the ways you can contribute:
 
 * [Filing issues](#filing-issues)
+* [Commit Signing](#commit-signing)
 * [Small bug fixes](#small-bug-fixes)
 * [Big pull requests](#big-prs)
 * [Code review guidelines](#code-review-guidelines)
@@ -15,6 +16,10 @@ To understand contributor roles, refer to the [contributor ladder guide](CONTRIB
 
 If you encounter a bug, please file an issue on GitHub in the k8sgateway/k8sgateway repo.
 If an issue you have is already reported, please add additional information or add a 👍 reaction to indicate your agreement.
+
+## Commit Signing
+
+In order to help ensure the integrity of our code the K8sGateway project requires that your commits are signed and verified. For more details as well as instructions for setting up signing please review the [github docuementation](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification) about signing and verification of commits. 
 
 ## Small bug fixes
 

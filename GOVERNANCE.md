@@ -33,7 +33,7 @@ Our governance builds on top of definitions from other documents, review the fol
 While most business in K8sGateway is conducted by "[lazy consensus](https://community.apache.org/committers/lazyConsensus.html)",
 periodically the Maintainers may need to vote on specific actions or changes. The following rules govern our voting process, unless otherwise stated for a specific purpose.
 
-* A vote begins when a PR that has the `/vote` comment.
+* A vote begins when someone adds a PR comment containing the `/vote` command.
 * A simple majority of eligible votes decides the vote outcome.
 * A vote is cast when a project maintainer emotes thumbs-up or thumbs-down (👍 or 👎) on the specific "vote" created by the git-vote bot on the GitHub PR, referring to the most recent commit when the vote is created. If there is any further commit to the PR, a new vote must be created.
 * No single company should have more than six eligible voters. It is the responsibility of each company to determine which affiliated maintainers are the eligible voters.

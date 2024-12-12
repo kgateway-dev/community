@@ -37,7 +37,7 @@ periodically the Maintainers may need to vote on specific actions or changes. Th
 * A simple majority of eligible votes decides the vote outcome.
 * A vote is cast when a project maintainer emotes thumbs-up or thumbs-down (👍 or 👎) on a specific "call to vote" comment of the GitHub PR, referring to the most recent commit when the comment is entered. If there is any further commit to the PR, a new vote must be called to refer to the new commit.
 * No single company should cast more than six votes. It is the responsibility of each company to determine which affiliated maintainers will vote.
-* Voting must be open for at least one week or until the required threshold is met.
+* Voting must be open for at least one week or until the required threshold is met, whichever is sooner.
 
 ## Changes to governance
 

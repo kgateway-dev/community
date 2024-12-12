@@ -1,0 +1,7 @@
+profiles:
+  default:
+    duration: 1w
+    pass_threshold: 50
+    allowed_voters:
+      teams:
+        - eligible-voters

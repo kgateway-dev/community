@@ -24,7 +24,7 @@ The K8sGateway project embraces the following values:
 
 Our governance builds on top of definitions from other documents, review the following files for relevant information:
 
-* [ROLES.md](./ROLES.md) for the different roles with the project.
+* [CONTRIBUTOR_LADDER.md](./CONTRIBUTOR_LADDER.md) for the different roles with the project.
 * [MAINTAINERS.md](./MAINTAINERS.md) for the project maintainers, including their organizational affiliation.
 * [Code of Conduct](./CODE-OF-CONDUCT.md) for our code of conduct.
 
@@ -35,7 +35,7 @@ periodically the Maintainers may need to vote on specific actions or changes. Th
 
 * A vote begins when someone adds a PR comment containing the `/vote` command.
 * A simple majority of eligible votes decides the vote outcome.
-* A vote is cast when a project maintainer emotes thumbs-up or thumbs-down (👍 or 👎) on the specific "vote" created by the git-vote bot on the GitHub PR, referring to the most recent commit when the vote is created. If there is any further commit to the PR, a new vote must be created.
+* A vote is cast when a project maintainer emotes thumbs-up or thumbs-down (👍 or 👎) on the specific "vote" created by the git-vote bot on the GitHub PR, referring to the most recent commit at the time the vote is created. If there is any further commit to the PR, a new vote must be created.
 * No single company should have more than six eligible voters. It is the responsibility of each company to determine which affiliated maintainers are the eligible voters.
 * Voting must be open for at least one week or until the required threshold is met, whichever is sooner.
 

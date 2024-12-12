@@ -35,7 +35,7 @@ periodically the Maintainers may need to vote on specific actions or changes. Th
 
 * A vote begins when a PR that has the `/vote` comment.
 * A simple majority of eligible votes decides the vote outcome.
-* A vote is cast when a project maintainer emotes thumbs-up or thumbs-down (👍 or 👎) on the specific "vote" created by the git-vote bot of the GitHub PR, referring to the most recent commit when the vote is created. If there is any further commit to the PR, a new vote must be created.
+* A vote is cast when a project maintainer emotes thumbs-up or thumbs-down (👍 or 👎) on the specific "vote" created by the git-vote bot on the GitHub PR, referring to the most recent commit when the vote is created. If there is any further commit to the PR, a new vote must be created.
 * No single company should have more than six eligible voters. It is the responsibility of each company to determine which affiliated maintainers are the eligible voters.
 * Voting must be open for at least one week or until the required threshold is met, whichever is sooner.
 

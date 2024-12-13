@@ -14,7 +14,7 @@ Please keep the table sorted.
 | Eitan Yarmush | EItanya | Controller, Proxy | Solo.io |
 | Ian Rudie | ilrudie | Community | Solo.io |
 | Jacob Bohanon | jbohanon | Controller, Proxy  | Coinbase |
-| Jahvon Dockery | jahvon | Controller | _unaffiliated_ <!--TODO: correct affiliation --> |
+| Jahvon Dockery | jahvon | Controller | CarGurus |
 | Jenny Shu | jenshu | Controller, Community | Solo.io |
 | Kevin Dorosh | kdorosh | Controller, Proxy | _unaffiliated_ |
 | Lawrence Gadban | lgadban | Controller | Solo.io |
@@ -22,7 +22,7 @@ Please keep the table sorted.
 | Nadine Spies | Nadine2016 | Docs | Solo.io |
 | Nathan Fudenberg | nfuden | Controller, Proxy | Solo.io |
 | Nina Polshakova | npolshakova | Controller | Solo.io |
-| Sai Ekbote | saiskee | Controller, Proxy | _unaffiliated_ <!--TODO: correct affiliation --> |
+| Sai Ekbote | saiskee | Controller, Proxy | HubSpot |
 | Sam Heilbron | sam-heilbron | Controller | Solo.io |
 | Scott Weiss | ilackarms | Controller | Solo.io |
 | Seth Heidkamp | sheidkamp | Controller | Solo.io |

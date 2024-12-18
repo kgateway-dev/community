@@ -37,7 +37,7 @@ In order to help ensure the integrity of our code the K8sGateway project require
 
 It’s important that every piece of code in K8sGateway is reviewed by at least one maintainer familiar with that codebase.
 
-1. **Changelog**: The K8sGateway project uses [GitHub's automatically generated release notes](https://docs.github.com/en/repositories/releasing-projects-on-github/automatically-generated-release-notes) feature. As such, make sure that your PR description includes a clear, concise message of the change, including any user-facing steps to use the feature.
+1. **Changelog**: The K8sGateway project uses [GitHub's automatically generated release notes](https://docs.github.com/en/repositories/releasing-projects-on-github/automatically-generated-release-notes) feature. As such, make sure that your PR description includes a clear, concise message of the change, including any user-facing steps to use the feature. <!-- TODO: update this when all the changelog churn is worked out https://github.com/k8sgateway/k8sgateway/issues/10409 -->
 2. **CI check**: A maintainer needs to kick off the CI process by commenting `/test` on your PR.
 3. **Testing**: Please write tests for your changes. Bias towards fast / unit testing.
 4. **Comments**: The code reviewer may leave comments to discuss changes. Minor preferences are often called out with `nit`.

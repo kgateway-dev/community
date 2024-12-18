@@ -17,7 +17,6 @@ Company affiliation:
 Requirements:
 
 - [ ] I have reviewed the project [contributing guide](CONTRIBUTING.md)
-- [ ] I have [commit signing and verifcation](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification) setup 
 - [ ] I have enabled 2FA on my GitHub account
 - [ ] I have joined #k8sgateway channel on the [CNCF slack](https://slack.cncf.io)
 

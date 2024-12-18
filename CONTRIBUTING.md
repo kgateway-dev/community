@@ -9,11 +9,13 @@ Here are some of the ways you can contribute:
   * [Commit Signing](#commit-signing)
   * [Code review guidelines](#code-review-guidelines)
 * [Ways to contribute](#ways-to-contribute)
+  * [Reporting Security Vulnerabilities](#reporting-security-vulnerabilities)
   * [Filing issues](#filing-issues)
   * [Small bug fixes](#small-bug-fixes)
   * [Big pull requests](#big-prs)
 
 To understand contributor roles, refer to the [contributor ladder guide](CONTRIBUTOR_LADDER.md).
+
 
 ## Requirements for PRs
 
@@ -42,6 +44,10 @@ It’s important that every piece of code in K8sGateway is reviewed by at least 
 5. **PR Description**: Is well formatted, concise and descriptive enough to be used as a release note.
 
 ## Ways to contribute
+
+### Reporting Security Vulnerabilities
+
+If you would like to report a security issue please refere to the [K8sGateway documentation site](https://k8sgateway.io/docs/reference/vulnerabilities/). 
 
 ### Filing issues
 

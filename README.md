@@ -21,6 +21,8 @@ If you're interested in participating with the K8sGateway community, come talk t
 
 To join a community meeting, add the [K8sGateway calendar](https://calendar.google.com/calendar/u/1?cid=ZDI0MzgzOWExMGYwMzAxZjVkYjQ0YTU0NmQ1MDJmODA5YTBjZDcwZGI4ZTBhZGNhMzIwYWRlZjJkOTQ4MzU5Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to your Google account. Then, you can find event details on the calendar.
 
+Recordings of the community meetings are available on a [google drive](https://drive.google.com/drive/folders/1giR48RYVxuYPFe8pmhS2I5KfYDXzrG73?usp=sharing).
+
 ## Contributing
 
 Review the following resources to contribute to the K8sGateway project.

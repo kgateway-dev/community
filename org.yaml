@@ -1,6 +1,7 @@
 orgs:
   k8sgateway:
     admins:
+    - gateway-bot
     - ilevine
     - ilrudie
     - linsun
@@ -10,11 +11,14 @@ orgs:
     - yuval-k
     members:
     - artberger
+    - ashleywang1
     - craigbox
     - danehans
+    - jahvon
     - jbohanon
     - jenshu
     - josh-pritchard
+    - kdorosh
     - kevin-shelaga
     - lgadban
     - Nadine2016
@@ -22,45 +26,54 @@ orgs:
     - sheidkamp
     - Sodman
     - stevenctl
+    - timflannagan
+    - tjons
     teams:
       community-maintainers:
         description: ""
+        maintainers:
+        - ilrudie
+        - linsun
         members:
         - craigbox
         - danehans
-        - ilrudie
         - jenshu
-        - linsun
         privacy: closed
         repos:
           community: maintain
       controller-maintainers:
         description: ""
+        maintainers:
+        - nfuden
+        - sam-heilbron
+        - yuval-k
         members:
+        - ashleywang1
         - danehans
         - jenshu
         - lgadban
-        - nfuden
-        - sam-heilbron
         - shashankram
         - sheidkamp
         - stevenctl
-        - yuval-k
         privacy: closed
         repos:
           k8sgateway: maintain
       documentation-maintainers:
         description: ""
-        members:
-        - artberger
-        - craigbox
-        - Nadine2016
-        - williamgrh
         privacy: closed
-        repos:
-          k8sgateway.io: maintain
-      notify-call-to-vote:
-        description: This team grants no permissions, it should be notified of all votes.
-        members:
+      eligible-voters:
+        description: ""
+        maintainers:
         - ilrudie
+        - linsun
+        - nfuden
+        - yuval-k
+        members:
+        - danehans
+        - jahvon
+        - jbohanon
+        - jenshu
+        - kdorosh
+        - tjons
         privacy: closed
+

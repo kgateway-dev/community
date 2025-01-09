@@ -31,7 +31,6 @@ fi
 # install peribolos
 GOBIN=${BIN_PATH} go install sigs.k8s.io/prow/cmd/peribolos@main
 
-# maybe add --ignore-invitees
 args=(
   --github-token-path="${REPO_ROOT}/GH_TOK"
   --config-path="${REPO_ROOT}/org.yaml"
@@ -43,5 +42,4 @@ args=(
   "${org_admins[@]/#/--required-admins=}"
 )
 
-# if you are feeling brave, run this script with org:admin and add the `--confirm`
 "${cmd}" "${args[@]}" "${@}"

@@ -16,5 +16,5 @@ jobs:
         GH_TOK: ${{secrets.GATEWAYBOT}}
       run: |
         echo $GH_TOK >> ./GH_TOK
-        script/org/update.sh # --confirm
+        script/org/update.sh --confirm
         rm ./GH_TOK

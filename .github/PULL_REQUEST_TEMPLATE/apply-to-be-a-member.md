@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-If you'd like to become a member of the organization on GitHub, please fill out this form and submit it as a GitHub issue in the community repo. Give us a few days to review and you should receive an invitation to join.
+If you'd like to become a member of the organization on GitHub, please fill out this form and submit it as a GitHub PR in the community repo. Give us a few days to review and you should receive an invitation to join.
 
 ----------------------
 GitHub user id:

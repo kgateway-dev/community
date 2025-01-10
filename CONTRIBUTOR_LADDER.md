@@ -47,7 +47,7 @@ An Organization Member must meet the responsibilities and has the requirements o
     * May give commands to CI/CD automation.
     * May label/triage issues.
 
-To apply to become a member of the k8sgateway organization on GitHub, please open a GitHub PR in the community repository following the [template](.github/PULL_REQUEST_TEMPLATE/apply-to-be-a-member.md). The PR should include adding your user name to the list of members in our [organization file](./org.yaml). Please add your name in the correct alphabetical order to maintain a tidy organization file.
+To apply to become a member of the k8sgateway organization on GitHub, please open a GitHub PR in the community repository following the [template](.github/PULL_REQUEST_TEMPLATE/apply_to_be_a_member.md). The PR should include adding your user name to the list of members in our [organization file](./org.yaml). Please add your name in the correct alphabetical order to maintain a tidy organization file.
 
 ### Reviewer
 

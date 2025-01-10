@@ -41,7 +41,7 @@ An Organization Member must meet the responsibilities and has the requirements o
 * Requirements:
     * Must have successful contributions to the project, including at least one merged PR.
     * Must be member of the #k8sgateway channel on the [CNCF Slack](https://slack.cncf.io).
-    * Must have 2FA enabled on your GitHub account.
+    * Must have [2FA](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa) enabled on your GitHub account.
 * Privileges:
     * May be assigned Issues and Reviews.
     * May give commands to CI/CD automation.

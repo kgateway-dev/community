@@ -61,6 +61,10 @@ orgs:
       documentation-maintainers:
         description: ""
         privacy: closed
+        members:
+        - craigbox
+        - Nadine2016
+        - williamgrh
       eligible-voters:
         description: ""
         maintainers:

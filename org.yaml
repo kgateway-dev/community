@@ -16,6 +16,8 @@ orgs:
     - craigbox
     - danehans
     - davidjumani
+    - EItanya
+    - ilackarms
     - jahvon
     - jbohanon
     - jenshu
@@ -24,6 +26,8 @@ orgs:
     - kevin-shelaga
     - lgadban
     - Nadine2016
+    - npolshakova
+    - saiskee
     - shashankram
     - sheidkamp
     - Sodman
@@ -52,11 +56,18 @@ orgs:
         members:
         - ashleywang1
         - danehans
+        - EItanya
+        - ilackarms
+        - jahvon
         - jenshu
+        - jbohanon
         - lgadban
+        - npolshakova
+        - saiskee
         - shashankram
         - sheidkamp
         - stevenctl
+        - tjons
         privacy: closed
         repos:
           k8sgateway: maintain

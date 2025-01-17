@@ -4,4 +4,4 @@
 * @ilevine @ilrudie @linsun @yuval-k
 
 # less-sensitive content owned by the full set of community maintainers
-*.md @k8sgateway/community-maintainers
+*.md @kgateway-dev/community-maintainers

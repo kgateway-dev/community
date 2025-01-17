@@ -1,5 +1,5 @@
 orgs:
-  k8sgateway:
+  kgateway-dev:
     admins:
     - gateway-bot
     - ilevine
@@ -70,7 +70,7 @@ orgs:
         - tjons
         privacy: closed
         repos:
-          k8sgateway: maintain
+          kgateway: maintain
       documentation-maintainers:
         description: ""
         privacy: closed

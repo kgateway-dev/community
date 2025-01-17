@@ -1,4 +1,4 @@
-# K8sGateway Contributor Ladder
+# Kgateway Contributor Ladder
 
 This document describes the set of roles individuals may have within the community, the requirements of each role, and the contributor ladder for someone to grow.
 
@@ -40,18 +40,18 @@ An Organization Member must meet the responsibilities and has the requirements o
     * Continues to contribute regularly, as demonstrated by having at least 3 GitHub contributions per year, as shown by Devstats.
 * Requirements:
     * Must have successful contributions to the project, including at least one merged PR.
-    * Must be member of the #k8sgateway channel on the [CNCF Slack](https://slack.cncf.io).
+    * Must be member of the #kgateway channel on the [CNCF Slack](https://slack.cncf.io).
     * Must have [2FA](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa) enabled on your GitHub account.
 * Privileges:
     * May be assigned Issues and Reviews.
     * May give commands to CI/CD automation.
     * May label/triage issues.
 
-To apply to become a member of the k8sgateway organization on GitHub, please open a GitHub PR in the community repository that contains the following:
-1. Use the [membership request template](.github/PULL_REQUEST_TEMPLATE/apply_to_be_a_member.md). This template is linked from the default template when you open a PR, or you can paste this URL in your browser `https://github.com/k8sgateway/community/compare/main...<my-fork>:<my-branch>?quick_pull=1&title=Request%20org%20membership%20for%20<user>&labels=membership&template=apply_to_be_a_member.md`, replacing:
+To apply to become a member of the kgateway-dev organization on GitHub, please open a GitHub PR in the community repository that contains the following:
+1. Use the [membership request template](.github/PULL_REQUEST_TEMPLATE/apply_to_be_a_member.md). This template is linked from the default template when you open a PR, or you can paste this URL in your browser `https://github.com/kgateway-dev/community/compare/main...<my-fork>:<my-branch>?quick_pull=1&title=Request%20org%20membership%20for%20<user>&labels=membership&template=apply_to_be_a_member.md`, replacing:
     - `<my-fork>:<my-branch>` with your fork/branch name, and
     - `<user>` with your GitHub username
-1. Add your GitHub username to the list of members (under `orgs.k8sgateway.members`) in our [organization file](./org.yaml). Please add your name in the correct alphabetical order to maintain a tidy organization file.
+1. Add your GitHub username to the list of members (under `orgs.kgateway-dev.members`) in our [organization file](./org.yaml). Please add your name in the correct alphabetical order to maintain a tidy organization file.
 
 ### Reviewer
 

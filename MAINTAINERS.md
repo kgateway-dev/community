@@ -1,4 +1,4 @@
-# K8sGateway maintainers
+# Kgateway maintainers
 
 ## Active
 

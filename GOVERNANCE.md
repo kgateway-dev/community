@@ -1,10 +1,10 @@
-# K8sGateway governance
+# Kgateway governance
 
-K8sGateway is dedicated to building a feature-rich, fast and flexible next-generation API gateway. This governance document details how the project is run.
+Kgateway is dedicated to building a feature-rich, fast and flexible next-generation API gateway. This governance document details how the project is run.
 
 ## Values
 
-The K8sGateway project embraces the following values:
+The kgateway project embraces the following values:
 
 * Openness: Communication and decision-making happens in the open and is discoverable for future
   reference. As much as possible, all discussions and work take place in public
@@ -30,7 +30,7 @@ Our governance builds on top of definitions from other documents, review the fol
 
 ## Voting
 
-While most business in K8sGateway is conducted by "[lazy consensus](https://community.apache.org/committers/lazyConsensus.html)",
+While most business in kgateway is conducted by "[lazy consensus](https://community.apache.org/committers/lazyConsensus.html)",
 periodically the Maintainers may need to vote on specific actions or changes. The following rules govern our voting process, unless otherwise stated for a specific purpose.
 
 * A vote begins when someone adds a PR comment containing the `/vote` command.
@@ -44,10 +44,10 @@ periodically the Maintainers may need to vote on specific actions or changes. Th
 <!---
 TODO: Enumerate what, precisely, constitutes a change in governance. I think it's clear editing this file, in any significant way, would count. Adjusting at least certain things wrt to the maintainer lifecycle also would likely constitute a governance change because this would directly impact who is, and is not, able to vote as well as who may be eligible or not in the future.
 -->
-All changes to our governance model require a vote by the maintainers. The proposed change will be submitted as a PR against the K8sGateway community repository. Voting will proceed according to the rules established for simple conflict resolution, with the sole exception being the threshold for acceptance.
+All changes to our governance model require a vote by the maintainers. The proposed change will be submitted as a PR against the kgateway community repository. Voting will proceed according to the rules established for simple conflict resolution, with the sole exception being the threshold for acceptance.
 
 * Any change requires a 2/3 super majority to be accepted.
 
 ## Vendor-neutrality
 
-K8sGateway is committed to [vendor-neutrality](https://contribute.cncf.io/maintainers/community/vendor-neutrality/). Our governance process has been designed to limit the influence of individual companies in furtherance of this goal. If you have concerns about the vendor-neutrality of the project please open an issue in this repository or join our [community meeting](https://calendar.google.com/calendar/u/1?cid=ZDI0MzgzOWExMGYwMzAxZjVkYjQ0YTU0NmQ1MDJmODA5YTBjZDcwZGI4ZTBhZGNhMzIwYWRlZjJkOTQ4MzU5Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to discuss.
+Kgateway is committed to [vendor-neutrality](https://contribute.cncf.io/maintainers/community/vendor-neutrality/). Our governance process has been designed to limit the influence of individual companies in furtherance of this goal. If you have concerns about the vendor-neutrality of the project please open an issue in this repository or join our [community meeting](https://calendar.google.com/calendar/u/1?cid=ZDI0MzgzOWExMGYwMzAxZjVkYjQ0YTU0NmQ1MDJmODA5YTBjZDcwZGI4ZTBhZGNhMzIwYWRlZjJkOTQ4MzU5Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to discuss.

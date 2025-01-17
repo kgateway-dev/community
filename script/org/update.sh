@@ -13,6 +13,7 @@ readonly REPO_ROOT
 readonly org_admins=(
   ilevine
   ilrudie
+  jenshu
   linsun
   yuval-k
 )

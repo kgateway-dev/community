@@ -1,4 +1,4 @@
-name: Manage K8sGateway Org
+name: Manage kgateway-dev org
 on:
   push:
     branches:

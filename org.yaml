@@ -39,17 +39,18 @@ orgs:
         description: ""
         maintainers:
         - ilrudie
+        - jenshu
         - linsun
         members:
         - craigbox
         - danehans
-        - jenshu
         privacy: closed
         repos:
           community: maintain
       controller-maintainers:
         description: ""
         maintainers:
+        - jenshu
         - nfuden
         - sam-heilbron
         - yuval-k
@@ -59,7 +60,6 @@ orgs:
         - EItanya
         - ilackarms
         - jahvon
-        - jenshu
         - jbohanon
         - lgadban
         - npolshakova
@@ -82,6 +82,7 @@ orgs:
         description: ""
         maintainers:
         - ilrudie
+        - jenshu
         - linsun
         - nfuden
         - yuval-k
@@ -89,7 +90,6 @@ orgs:
         - danehans
         - jahvon
         - jbohanon
-        - jenshu
         - kdorosh
         - tjons
         privacy: closed

@@ -36,7 +36,7 @@ orgs:
     - tjons
     teams:
       community-maintainers:
-        description: ""
+        description: Maintainers of the community repo
         maintainers:
         - ilrudie
         - jenshu
@@ -48,7 +48,7 @@ orgs:
         repos:
           community: maintain
       controller-maintainers:
-        description: ""
+        description: Maintainers of the kgateway repo
         maintainers:
         - jenshu
         - nfuden
@@ -71,6 +71,13 @@ orgs:
         privacy: closed
         repos:
           kgateway: maintain
+      controller-reviewers:
+        description: People who can approve PRs in the kgateway repo
+        members:
+        - timflannagan
+        privacy: closed
+        repos:
+          kgateway: write
       documentation-maintainers:
         description: ""
         privacy: closed

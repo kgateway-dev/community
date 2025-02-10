@@ -36,7 +36,7 @@ An Organization Member is an established contributor who regularly participates 
 An Organization Member must meet the responsibilities and has the requirements of a Contributor, plus:
 
 * Responsibilities include:
-    * Continues to contribute regularly, as demonstrated by having at least 3 GitHub contributions per year, as shown by Devstats.
+    * Continues to contribute regularly, as demonstrated by having at least 3 GitHub contributions per year, as shown by [devstats](https://devstats.cncf.io/).
 * Requirements:
     * Must have successful contributions to the project, including at least one merged PR.
     * Must be member of the #kgateway channel on the [CNCF Slack](https://slack.cncf.io).
@@ -63,7 +63,7 @@ A Maintainer must meet the responsibilities and requirements of an Organization 
     * Mentoring other contributors
     * Determining strategy and policy for the project
 * Requirements
-    * Experience as a Contributor or Organization Member for at least 3 months
+    * Experience as an Organization Member for at least 3 months
     * Has reviewed, or helped review, at least 20 Pull Requests
     * Has at least 20 substantial PRs merged to the codebase
     * Demonstrates a broad knowledge of the project across multiple areas
@@ -73,7 +73,7 @@ A Maintainer must meet the responsibilities and requirements of an Organization 
     * Represents the project in public as a Maintainer
     * Has a vote in Maintainer decision-making discussions
     
-Any current Maintainer may nominate a current Contributor or Organization Member to become a new Maintainer in one or more repositories, by opening a PR in the community repository using the [maintainer nomination template](.github/PULL_REQUEST_TEMPLATE/nominate_a_maintainer.md). After making sure each item in the template checklist is satisfied, at least 2 current Maintainers from each relevant repository must then approve the PR, along with no objections from other maintainers.
+Any current Maintainer may nominate a current Organization Member to become a new Maintainer in one or more repositories, by opening a PR in the community repository using the [maintainer nomination template](.github/PULL_REQUEST_TEMPLATE/nominate_a_maintainer.md). After making sure each item in the template checklist is satisfied, at least 2 current Maintainers from each relevant repository must then approve the PR, along with no objections from other maintainers.
 
 ## Inactivity
 

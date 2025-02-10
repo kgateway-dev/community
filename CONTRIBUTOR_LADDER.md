@@ -73,15 +73,7 @@ A Maintainer must meet the responsibilities and requirements of an Organization 
     * Represents the project in public as a Maintainer
     * Has a vote in Maintainer decision-making discussions
     
-Any current Maintainer may nominate a current Contributor or Organization Member to become a new Maintainer, by opening a PR in the community repository with the following:
-1. Use the [maintainer nomination template](.github/PULL_REQUEST_TEMPLATE/nominate_a_maintainer.md). This template is linked from the default template when you open a PR, or you can paste this URL in your browser `https://github.com/kgateway-dev/community/compare/main...<my-fork>:<my-branch>?quick_pull=1&title=Nominate%20<user>%20as%20maintainer&labels=membership&template=nominate_a_maintainer.md`, replacing:
-    - `<my-fork>:<my-branch>` with your fork/branch name, and
-    - `<user>` with the GitHub user that you are nominating as a maintainer
-1. Ensure the nominee has met all requirements to be a Maintainer, as outlined in the [contributor ladder](https://github.com/kgateway-dev/community/blob/main/CONTRIBUTOR_LADDER.md#maintainer).
-1. Add the nominee's GitHub username to the list of `members` under the appropriate `*-maintainers` team (e.g. `community-maintainers`, `controller-maintainers`, etc.) in our [organization file](./org.yaml). If they are not already an Organization Member, their username should also be added to the org under `orgs.kgateway-dev.members`. Please add their name in the correct alphabetical order to maintain a tidy organization file.
-1. Add the nominee to the list of active maintainers in [MAINTAINERS.md](https://github.com/kgateway-dev/community/blob/main/MAINTAINERS.md).
-1. The nominee will add a comment to the PR testifying that they agree to all requirements of becoming a Maintainer.
-1. At least 2 of the current Maintainers for the part of the project must then approve the PR, along with no objections from other maintainers.
+Any current Maintainer may nominate a current Contributor or Organization Member to become a new Maintainer in one or more repositories, by opening a PR in the community repository using the [maintainer nomination template](.github/PULL_REQUEST_TEMPLATE/nominate_a_maintainer.md). After making sure each item in the template checklist is satisfied, at least 2 current Maintainers from each relevant repository must then approve the PR, along with no objections from other maintainers.
 
 ## Inactivity
 

@@ -1,14 +1,10 @@
-# Kgateway-dev Maintainer Nomination
+# Maintainer Nomination
 
 <!--
-This template should be used by a current Maintainer to nominate a current Contributor or Organization Member to become a Maintainer.
+This template should be used by a current Maintainer to nominate a current Contributor or Organization Member to become a Maintainer in one or more repositories within the kgateway-dev organization.
 -->
 
 Nominee's GitHub user ID:
-
-Nominee's specialization area(s) (Community / Controller / Docs / Proxy):
-
-Nominee's company affiliation:
 
 Summary of contributions:
 

@@ -65,13 +65,13 @@ A Maintainer must meet the responsibilities and requirements of an Organization 
 * Requirements
     * Experience as a Contributor or Organization Member for at least 3 months
     * Has reviewed, or helped review, at least 20 Pull Requests
-    * Have at least 20 substantial PRs merged to the codebase
+    * Has at least 20 substantial PRs merged to the codebase
     * Demonstrates a broad knowledge of the project across multiple areas
 * Additional privileges:
     * Has GitHub or CI/CD rights to approve pull requests in specific directories
     * Can recommend and review other contributors to become Maintainers
-    * Represent the project in public as a Maintainer
-    * Have a vote in Maintainer decision-making discussions
+    * Represents the project in public as a Maintainer
+    * Has a vote in Maintainer decision-making discussions
     
 Any current Maintainer may nominate a current Contributor or Organization Member to become a new Maintainer, by opening a PR in the community repository with the following:
 1. Use the [maintainer nomination template](.github/PULL_REQUEST_TEMPLATE/nominate_a_maintainer.md). This template is linked from the default template when you open a PR, or you can paste this URL in your browser `https://github.com/kgateway-dev/community/compare/main...<my-fork>:<my-branch>?quick_pull=1&title=Nominate%20<user>%20as%20maintainer&labels=membership&template=nominate_a_maintainer.md`, replacing:

@@ -28,6 +28,7 @@ Please keep the table sorted.
 | Seth Heidkamp | sheidkamp | Controller | Solo.io |
 | Shashank Ram | shashankram | Controller | Solo.io |
 | Steven Landow | stevenctl | Controller | Solo.io |
+| Tim Flannagan | timflannagan | Controller | Solo.io |
 | Tyler Schade | tjons | Controller | GEICO Insurance |
 | Will Rigby-Hall | williamgrh | Docs | Solo.io |
 | Yuval Kohavi | yuval-k | Controller, Proxy | Solo.io |

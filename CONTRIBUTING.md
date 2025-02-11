@@ -4,18 +4,20 @@ Excited about kgateway and want to help make it better?
 
 Here are some of the ways you can contribute:
 
-* [Requirements for PRs](#requirements-for-prs)
-  * [DCO](#dco)
-  * [Commit Signing](#commit-signing)
-  * [Code review guidelines](#code-review-guidelines)
-* [Ways to contribute](#ways-to-contribute)
-  * [Reporting Security Vulnerabilities](#reporting-security-vulnerabilities)
-  * [Filing issues](#filing-issues)
-  * [Small bug fixes](#small-bug-fixes)
-  * [Big pull requests](#big-prs)
+- [Requirements for PRs](#requirements-for-prs)
+  - [DCO](#dco)
+  - [Commit Signing](#commit-signing)
+  - [Code review guidelines](#code-review-guidelines)
+- [Ways to contribute](#ways-to-contribute)
+  - [Report Security Vulnerabilities](#report-security-vulnerabilities)
+  - [File issues](#file-issues)
+  - [Find something to work on](#find-something-to-work-on)
+  - [Small changes (bug fixes)](#small-changes-bug-fixes)
+  - [Large changes (features, refactors)](#large-changes-features-refactors)
+- [Documentation](#documentation)
+- [Get in touch](#get-in-touch)
 
 To understand contributor roles, refer to the [contributor ladder guide](CONTRIBUTOR_LADDER.md).
-
 
 ## Requirements for PRs
 
@@ -29,54 +31,97 @@ DCO, short for Developer Certificate or Origin, is a per commit signoff that you
 
 The easiest way to signoff on your contributions is to use the `-s` flag on your git commit command when you check in code. `git commit -s -m "description of my excellent contribution"`. If your forget to signoff for a commit our automation will flag your PR by failing the DCO check. If this happens you will need to go back and signoff on previous commits. `git rebase --signoff main` can be used to add signoffs to previous commits. In our example `main` is used, which means this command will rewrite the git history of your current branch adding signoffs to commits visible from `main` (not inclusive). Please be aware that rewriting commit history does carry some risk and if the commits you are rewriting we already pushed to a remote you will need to force push the rewritten history.
 
-### Commit Signing
+### Commit signing
 
 In order to help ensure the integrity of our code the kgateway project requires that your commits are signed and verified. For more details as well as instructions for setting up signing please review the [github docuementation](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification) about signing and verification of commits.
 
 ### Code review guidelines
 
-It’s important that every piece of code in kgateway is reviewed by at least one maintainer familiar with that codebase.
+All code must be reviewed by at least one [maintainer](https://github.com/kgateway-dev/community/blob/main/MAINTAINERS.md). Key requirements:
 
-1. **Changelog**: The kgateway project uses [GitHub's automatically generated release notes](https://docs.github.com/en/repositories/releasing-projects-on-github/automatically-generated-release-notes) feature. As such, make sure that your PR description includes a clear, concise message of the change, including any user-facing steps to use the feature. <!-- TODO: update this when all the changelog churn is worked out https://github.com/kgateway-dev/kgateway/issues/10409 -->
-2. **CI check**: A maintainer needs to kick off the CI process by commenting `/test` on your PR.
-3. **Testing**: Please write tests for your changes. Bias towards fast / unit testing.
-4. **Comments**: The code reviewer may leave comments to discuss changes. Minor preferences are often called out with `nit`.
-5. **PR Description**: Is well formatted, concise and descriptive enough to be used as a release note.
+1. **Code Style**
+   
+   - Follow [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments).
+   - Follow [Effective Go](https://golang.org/doc/effective_go).
+   - Run `make analyze` to check for common issues before submitting.
+
+2. **Testing**
+
+   - Add unit tests for new functionality.
+   - Ensure existing tests pass.
+   - Include integration and e2e tests when needed.
+
+3. **Documentation**
+   
+   - Update relevant documentation.
+   - Include code comments for non-obvious logic.
+   - Update API documentation if changing interfaces.
+
+4. **Change management**
+   
+   - Do not make breaking changes.
+   - If your PR potentially introduces a breaking change, make sure to call it out in the PR description and that it follows the agreed-upon design from your issue.
+   - Please address or acknowledge review comments on your PRs.
+   - If you are reviewing, please try to leave helpful, polite, substantive comments. Minor preferences can be called out with `nit`.
+   - Write a PR description that can be pulled into a changelog.
 
 ## Ways to contribute
 
-### Reporting Security Vulnerabilities
+Thanks for your interest in contributing to kgateway! We have a few different ways you can get involved.
 
-If you would like to report a security issue please refer to the [kgateway documentation site](https://k8sgateway.io/docs/reference/vulnerabilities/). 
+### Report Security Vulnerabilities
 
-### Filing issues
+If you would like to report a security issue, please refer to the [kgateway documentation site](https://k8sgateway.io/docs/reference/vulnerabilities/). 
 
-If you encounter a bug, please file an issue on GitHub in the [kgateway](https://github.com/kgateway-dev/kgateway) repo.
-If an issue you have is already reported, please add additional information or add a 👍 reaction to indicate your agreement.
+### File issues
 
-### Small bug fixes
+To file a bug or feature request in the [kgateway](https://github.com/kgateway-dev/kgateway) GitHub repo:
 
-If your bug fix is small (around 20 lines of code) just open a pull request. We will try to merge it as soon as possible,
-just make sure that you include a test that verifies the bug you are fixing.
+1. Search existing issues first.
+2. If no existing issue addresses your case, create a new one.
+3. Use issue templates when available.
+4. Add information or react to existing issues, such as a thumbs-up 👍 to indicate agreement.
 
-### Big PRs
+### Find something to work on
 
-This includes:
+The project uses [GitHub issues](https://github.com/kgateway-dev/kgateway/issues) to track bugs and features. Issues labeled with the `good first issue` label are a great place to start.
 
-* Big bug fixes
+Additionally, the project has a [milestone](https://github.com/kgateway-dev/kgateway/milestones) for the next release. Any issues labeled with a milestone are a great source of things to work on. If an issue has not been assigned to a milestone, you can ask to work on it by leaving a comment on the issue.
+
+Flaky tests are a common source of issues and a good place to start contributing to the project. You can find these issues by filtering with the `Type: CI Test Flake` label. If you see a test that is failing regularly, you can leave a comment asking if someone is working on it.
+
+### Small changes (bug fixes)
+
+For small changes (less than 100 lines of code):
+
+1. Open a pull request.
+2. Ensure tests verify the fix.
+3. If needed, [update the documentation](#documentation).
+
+### Large changes (features, refactors)
+
+Large features often touch many files, extend many lines of code, and often cover issues such as:
+
+* Large bug fixes
 * New features
+* Refactors of the existing codebase
 
-For significant changes to the codebase, it’s important to settle on a design before starting on the implementation. [Reaching out to us in CNCF slack](https://cloud-native.slack.com/archives/C080D3PJMS4) early will help minimize the amount of possible wasted effort and will ensure that major improvements are given enough attention.
-
-<!---
-TODO: Document correct methods for reaching out
-1. Community/contributor meeting
--->
-
-1. **Open an issue**: Open an issue about your bug in the [kgateway](https://github.com/kgateway-dev/kgateway) repo.
+For large changes:
+1. **Open an issue first**: Open an issue about your bug in the [kgateway](https://github.com/kgateway-dev/kgateway) repo.
 2. **Message us on Slack**: Reach out to us to discuss your proposed changes in our [CNCF slack channel, #kgateway](https://cloud-native.slack.com/archives/C080D3PJMS4).
-3. **Agree on implementation plan**: Write a plan for how this feature or bug fix should be implemented. Should this be one pull request or multiple incremental improvements? Who is going to do each part? Discuss it with us on slack or join our [community meeting](https://calendar.google.com/calendar/u/1?cid=ZDI0MzgzOWExMGYwMzAxZjVkYjQ0YTU0NmQ1MDJmODA5YTBjZDcwZGI4ZTBhZGNhMzIwYWRlZjJkOTQ4MzU5Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-4. **Submit a draft PR**: It's important to get feedback as early as possible to ensure that any big improvements end up being merged. Open a draft pull request and label it `work in progress` to start getting feedback.
+3. **Agree on implementation plan**: Write a plan for how this feature or bug fix should be implemented. Should this be one pull request or multiple incremental improvements? Who is going to do each part? Discuss it with us on Slack or join our [community meeting](https://calendar.google.com/calendar/u/1?cid=ZDI0MzgzOWExMGYwMzAxZjVkYjQ0YTU0NmQ1MDJmODA5YTBjZDcwZGI4ZTBhZGNhMzIwYWRlZjJkOTQ4MzU5Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+4. **Submit a draft PR**: It's important to get feedback as early as possible to ensure that any big improvements end up being merged. Open a draft pull request from your fork, label it `work in progress`, and start getting feedback.
 5. **Review**: At least one maintainer should sign off on the change before it’s merged. Look at the following [Code review](#code-review-guidelines) section to learn about what we're looking for.
 6. **Close out**: A maintainer will merge the PR and let you know about the next release plan.
 
+## Documentation
+
+The kgateway documentation lives in a separate repository: [kgateway-dev/kgateway.dev](https://github.com/kgateway-dev/kgateway.dev). For more details, see the [Docs contribution guide](https://kgateway.dev/docs/reference/contribution/).
+
+## Get in touch
+
+* [CNCF Slack](https://cloud-native.slack.com/archives/C080D3PJMS4): The `#kgateway` channel is the best way to get in touch and ask quick questions of the community. 
+* [GitHub discussions](https://github.com/kgateway-dev/kgateway/discussions): For more in-depth discussions and questions related to project functionality that is not as ephemeral as the Slack channel.
+* [GitHub issues](https://github.com/kgateway-dev/kgateway/issues): For raising bugs, feature requests, CI flakes, and other issues.
+* [Community calendar](https://calendar.google.com/calendar/u/1?cid=ZDI0MzgzOWExMGYwMzAxZjVkYjQ0YTU0NmQ1MDJmODA5YTBjZDcwZGI4ZTBhZGNhMzIwYWRlZjJkOTQ4MzU5Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t): For regular community meetings.
+* [Website](https://kgateway.dev/): For general information and the blog.

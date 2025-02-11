@@ -73,7 +73,12 @@ A Maintainer must meet the responsibilities and requirements of an Organization 
     * Represents the project in public as a Maintainer
     * Has a vote in Maintainer decision-making discussions
     
-Any current Maintainer may nominate a current Organization Member to become a new Maintainer in one or more repositories, by opening a PR in the community repository using the [maintainer nomination template](.github/PULL_REQUEST_TEMPLATE/nominate_a_maintainer.md). After making sure each item in the template checklist is satisfied, at least 2 current Maintainers from each relevant repository must then approve the PR, along with no objections from other maintainers.
+Any current Maintainer may nominate a current Organization Member to become a new Maintainer in one or more repositories, by opening a PR in the community repository using the [maintainer nomination template](.github/PULL_REQUEST_TEMPLATE/nominate_a_maintainer.md). The following requirements must be met before the PR is merged:
+1. Each item in the template checklist must be satisfied.
+1. At least 2 current Maintainers from each relevant repository must approve the PR.
+1. There must be no objections from other maintainers. This can be achieved by either of the following, whichever occurs first:
+    * Leaving the PR open for one week with no objections
+    * Asking at the weekly community meeting whether there are any objections
 
 ## Inactivity
 

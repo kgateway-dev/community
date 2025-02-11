@@ -27,6 +27,7 @@ orgs:
     - lgadban
     - Nadine2016
     - npolshakova
+    - Rachael-Graham
     - saiskee
     - shashankram
     - sheidkamp
@@ -34,9 +35,10 @@ orgs:
     - stevenctl
     - timflannagan
     - tjons
+    - wendeh
     teams:
       community-maintainers:
-        description: ""
+        description: Maintainers of the community repo
         maintainers:
         - ilrudie
         - jenshu
@@ -48,7 +50,7 @@ orgs:
         repos:
           community: maintain
       controller-maintainers:
-        description: ""
+        description: Maintainers of the kgateway repo
         maintainers:
         - jenshu
         - nfuden
@@ -72,12 +74,19 @@ orgs:
         repos:
           kgateway: maintain
       documentation-maintainers:
-        description: ""
-        privacy: closed
+        description: Maintainers of the kgateway.dev repo
+        maintainers:
+        - linsun
+        - williamgrh
         members:
+        - artberger
         - craigbox
         - Nadine2016
-        - williamgrh
+        - Rachael-Graham
+        - wendeh
+        privacy: closed
+        repos:
+          kgateway.dev: maintain
       eligible-voters:
         description: ""
         maintainers:

@@ -35,7 +35,6 @@ orgs:
     - stevenctl
     - timflannagan
     - tjons
-    - wendeh
     teams:
       community-maintainers:
         description: Maintainers of the community repo
@@ -83,7 +82,6 @@ orgs:
         - craigbox
         - Nadine2016
         - Rachael-Graham
-        - wendeh
         privacy: closed
         repos:
           kgateway.dev: maintain

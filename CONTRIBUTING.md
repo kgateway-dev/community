@@ -5,8 +5,8 @@ Excited about kgateway and want to help make it better?
 Here are some of the ways you can contribute:
 
 - [Requirements for PRs](#requirements-for-prs)
-  - [DCO](#dco)
-  - [Commit Signing](#commit-signing)
+  - [DCO or CLA](#dco-or-cla)
+  - [Commit signing](#commit-signing)
   - [Code review guidelines](#code-review-guidelines)
 - [Ways to contribute](#ways-to-contribute)
   - [Report Security Vulnerabilities](#report-security-vulnerabilities)
@@ -29,7 +29,7 @@ After you open a PR, the project maintainers will review your changes. Reviews t
 
 It's difficult to cover all the possible scenarios that you might encounter when contributing to open source software in a single document. However, this contributing guide outlines several requirements that even some well-versed contributors may not be familiar with. If you have questions, concerns or just need help getting started please don't hesitate to reach out through one of the channels covered in the [Get in touch section](#get-in-touch).
 
-### DCO
+### DCO or CLA
 
 DCO, short for Developer Certificate or Origin, is a per-commit signoff that you, the contributor, agree to the terms published at [https://developercertificate.org](https://developercertificate.org) for that particular commit.
 
@@ -39,11 +39,14 @@ The easiest way to sign off on your contributions is to use the `--signoff` opti
 git commit -s -m "description of my excellent contribution"
 ```
 
-If your forget to signoff for a commit, the project's automation flags your PR for failing the DCO check. You can sign off on previous commits by using the rebase command. The following example uses the `main` branch, which means this command rewrites the `git` history of your current branch while adding signoffs to commits visible from `main` (not inclusive). Please be aware that rewriting commit history does carry some risk, and if the commits you are rewriting are already pushed to a remote, you will need to force push the rewritten history.
+If your forget to signoff for a commit, your PR might be flagged and blocked from merging. You can sign off on previous commits by using the rebase command. The following example uses the `main` branch, which means this command rewrites the `git` history of your current branch while adding signoffs to commits visible from `main` (not inclusive). Please be aware that rewriting commit history does carry some risk, and if the commits you are rewriting are already pushed to a remote, you will need to force push the rewritten history.
 
 ```shell
 git rebase --signoff main
 ```
+
+If you do not have a DCO signoff per commit, make sure that you completed the [Contributor License Agreement (CLA) for CNCF](https://github.com/cncf/cla).
+
 ### Commit signing
 
 In order to help ensure the integrity of our code, the kgateway project requires that your commits are signed and verified. For more details as well as instructions for setting up signing, please review the [GitHub docs](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification).

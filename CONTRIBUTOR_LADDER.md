@@ -50,7 +50,7 @@ To apply to become a member of the kgateway-dev organization on GitHub, please o
 1. Use the [membership request template](.github/PULL_REQUEST_TEMPLATE/apply_to_be_a_member.md). This template is linked from the default template when you open a PR, or you can paste this URL in your browser `https://github.com/kgateway-dev/community/compare/main...<my-fork>:<my-branch>?quick_pull=1&title=Request%20org%20membership%20for%20<user>&labels=membership&template=apply_to_be_a_member.md`, replacing:
     - `<my-fork>:<my-branch>` with your fork/branch name, and
     - `<user>` with your GitHub username
-1. Add your GitHub username to the list of members (under `orgs.kgateway-dev.members`) in our [organization file](./org.yaml). Please add your name in the correct alphabetical order to maintain a tidy organization file.
+1. Add your GitHub username to the list of members (under `orgs.kgateway-dev.members` and `orgs.kgateway-dev.teams.org-members.members`) in our [organization file](./org.yaml). Please add your name in the correct alphabetical order to maintain a tidy organization file.
 
 ### Maintainer
 

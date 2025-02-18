@@ -103,7 +103,7 @@ orgs:
         - kdorosh
         - tjons
         privacy: closed
-      members:
+      org-members:
         description: Members of the org; may triage
         maintainers:
         - gateway-bot

@@ -32,6 +32,7 @@ Please keep the table sorted.
 | Steven Landow | stevenctl | Controller | Solo.io |
 | Tim Flannagan | timflannagan | Controller | Solo.io |
 | Tyler Schade | tjons | Controller | GEICO Insurance |
+| Wendie Cheung | wendeh | Docs | Solo.io |
 | Will Rigby-Hall | williamgrh | Docs | Solo.io |
 | Yuval Kohavi | yuval-k | Controller, Proxy | Solo.io |
 

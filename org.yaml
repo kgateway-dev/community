@@ -143,4 +143,6 @@ orgs:
         - wendeh
         privacy: closed
         repos:
-          .default: triage
+          kgateway: triage
+          community: triage
+          kgateway.dev: triage

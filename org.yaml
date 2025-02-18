@@ -103,4 +103,44 @@ orgs:
         - kdorosh
         - tjons
         privacy: closed
-
+      members:
+        description: Members of the org; may triage
+        maintainers:
+        - gateway-bot
+        - ilevine
+        - ilrudie
+        - jenshu
+        - linsun
+        - nfuden
+        - sam-heilbron
+        - williamgrh
+        - yuval-k
+        members:
+        - arianaw66
+        - artberger
+        - ashleywang1
+        - craigbox
+        - danehans
+        - davidjumani
+        - EItanya
+        - ilackarms
+        - jahvon
+        - jbohanon
+        - josh-pritchard
+        - kdorosh
+        - kevin-shelaga
+        - lgadban
+        - Nadine2016
+        - npolshakova
+        - Rachael-Graham
+        - saiskee
+        - shashankram
+        - sheidkamp
+        - Sodman
+        - stevenctl
+        - timflannagan
+        - tjons
+        - wendeh
+        privacy: closed
+        repos:
+          .default: triage

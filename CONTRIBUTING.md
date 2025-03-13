@@ -5,7 +5,7 @@ Excited about kgateway and want to help make it better?
 Here are some of the ways you can contribute:
 
 - [Requirements for PRs](#requirements-for-prs)
-  - [DCO or CLA](#dco-or-cla)
+  - [DCO](#dco)
   - [Commit signing](#commit-signing)
   - [Code review guidelines](#code-review-guidelines)
 - [Ways to contribute](#ways-to-contribute)
@@ -29,23 +29,23 @@ After you open a PR, the project maintainers will review your changes. Reviews t
 
 It's difficult to cover all the possible scenarios that you might encounter when contributing to open source software in a single document. However, this contributing guide outlines several requirements that even some well-versed contributors may not be familiar with. If you have questions, concerns or just need help getting started please don't hesitate to reach out through one of the channels covered in the [Get in touch section](#get-in-touch).
 
-### DCO or CLA
+### DCO
 
-DCO, short for Developer Certificate or Origin, is a per-commit signoff that you, the contributor, agree to the terms published at [https://developercertificate.org](https://developercertificate.org) for that particular commit.
+DCO, short for Developer Certificate of Origin, is a per-commit signoff that you, the contributor, agree to the terms published at [https://developercertificate.org](https://developercertificate.org) for that particular commit. This will appear as a `Signed-off-by: Your Name <your.email>` trailer at the end of each commit message. The kgateway project requires that every commit contains this DCO signoff.
 
-The easiest way to sign off on your contributions is to use the `--signoff` option (or `-s` for short) on your commit command when you check in code:
+The easiest way to make sure each of your commits contains the signoff is to copy this [prepare-commit-msg](https://github.com/kgateway-dev/kgateway/blob/main/hack/devel/githooks/prepare-commit-msg) file to `.git/hooks/prepare-commit-msg` in your copy of the repo to which you are contributing. Make sure that the file is executable. This Git hook will automatically add the required trailer to all of your commit messages.
+
+If you prefer not to use a Git hook, you can alternatively remember to use the `--signoff` option (or `-s` for short) on each of your commits when you check in code:
 
 ```shell
 git commit -s -m "description of my excellent contribution"
 ```
 
-If your forget to signoff for a commit, your PR might be flagged and blocked from merging. You can sign off on previous commits by using the rebase command. The following example uses the `main` branch, which means this command rewrites the `git` history of your current branch while adding signoffs to commits visible from `main` (not inclusive). Please be aware that rewriting commit history does carry some risk, and if the commits you are rewriting are already pushed to a remote, you will need to force push the rewritten history.
+If you forget to sign off on a commit, your PR might be flagged and blocked from merging. You can sign off on previous commits by using the rebase command. The following example uses the `main` branch, which means this command rewrites the `git` history of your current branch while adding signoffs to commits visible from `main` (not inclusive). Please be aware that rewriting commit history does carry some risk, and if the commits you are rewriting are already pushed to a remote, you will need to force push the rewritten history.
 
 ```shell
 git rebase --signoff main
 ```
-
-If you do not have a DCO signoff per commit, make sure that you completed the [Contributor License Agreement (CLA) for CNCF](https://github.com/cncf/cla).
 
 ### Commit signing
 

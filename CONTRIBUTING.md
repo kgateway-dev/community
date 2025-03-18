@@ -33,9 +33,9 @@ It's difficult to cover all the possible scenarios that you might encounter when
 
 DCO, short for Developer Certificate of Origin, is a per-commit signoff that you, the contributor, agree to the terms published at [https://developercertificate.org](https://developercertificate.org) for that particular commit. This will appear as a `Signed-off-by: Your Name <your.email>` trailer at the end of each commit message. The kgateway project requires that every commit contains this DCO signoff.
 
-The easiest way to make sure each of your commits contains the signoff is to copy this [prepare-commit-msg](https://github.com/kgateway-dev/kgateway/blob/main/hack/devel/githooks/prepare-commit-msg) file to `.git/hooks/prepare-commit-msg` in your copy of the repo to which you are contributing. Make sure that the file is executable. This Git hook will automatically add the required trailer to all of your commit messages.
+The easiest way to make sure each of your commits contains the signoff is to run `make init-git-hooks` in the repo to which you are contributing. This will configure your repo to use a Git hook which will automatically add the required trailer to all of your commit messages. Alternatively, you can manually copy the [.githooks/prepare-commit-msg](/.githooks/prepare-commit-msg) file to `.git/hooks/prepare-commit-msg` in your copy of the repo.
 
-If you prefer not to use a Git hook, you can alternatively remember to use the `--signoff` option (or `-s` for short) on each of your commits when you check in code:
+If you prefer not to use a Git hook, you must remember to use the `--signoff` option (or `-s` for short) on each of your commits when you check in code:
 
 ```shell
 git commit -s -m "description of my excellent contribution"

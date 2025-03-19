@@ -41,7 +41,7 @@ If you prefer not to use a Git hook, you must remember to use the `--signoff` op
 git commit -s -m "description of my excellent contribution"
 ```
 
-If you forget to sign off on a commit, your PR might be flagged and blocked from merging. You can sign off on previous commits by using the rebase command. The following example uses the `main` branch, which means this command rewrites the `git` history of your current branch while adding signoffs to commits visible from `main` (not inclusive). Please be aware that rewriting commit history does carry some risk, and if the commits you are rewriting are already pushed to a remote, you will need to force push the rewritten history.
+If you forget to sign off on a commit, your PR will be flagged and blocked from merging. You can sign off on previous commits by using the rebase command. The following example uses the `main` branch, which means this command rewrites the `git` history of your current branch while adding signoffs to commits visible from `main` (not inclusive). Please be aware that rewriting commit history does carry some risk, and if the commits you are rewriting are already pushed to a remote, you will need to force push the rewritten history.
 
 ```shell
 git rebase --signoff main

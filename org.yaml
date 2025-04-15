@@ -38,6 +38,7 @@ orgs:
     - timflannagan
     - tjons
     - wendeh
+    - ymesika
     teams:
       community-maintainers:
         description: Maintainers of the community repo

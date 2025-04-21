@@ -21,7 +21,7 @@ Please keep the table sorted.
 | Lawrence Gadban | lgadban | Controller | Solo.io |
 | Lin Sun | linsun | Community, Docs | Solo.io |
 | Nadine Spies | Nadine2016 | Docs | Solo.io |
-| Nathan Fudenberg | nfuden | Controller, Proxy | Solo.io |
+| Nathan Fudenberg | nfuden | Controller, Proxy | Sandgarden |
 | Nina Polshakova | npolshakova | Controller | Solo.io |
 | Rachael Graham | Rachael-Graham | Docs | Solo.io |
 | Sai Ekbote | saiskee | Controller, Proxy | HubSpot |

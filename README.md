@@ -1,7 +1,5 @@
 # Kgateway Community
 
-## 🚧 NOTE: This project is in the process of being donated to the CNCF and is not affiliated with the Kubernetes project. 🚧
-
 Welcome! Kgateway is excited you are interested in our community.
 
 Kgateway is an open source, cloud-native Layer 7 proxy that is based on [Envoy](https://www.envoyproxy.io/). The kgateway project implements gateway routing by using [Kubernetes Gateway API](https://gateway-api.sigs.k8s.io/) resources.

@@ -6,7 +6,6 @@ Here are some of the ways you can contribute:
 
 - [Requirements for PRs](#requirements-for-prs)
   - [DCO](#dco)
-  - [Commit signing](#commit-signing)
   - [Code review guidelines](#code-review-guidelines)
 - [Ways to contribute](#ways-to-contribute)
   - [Report Security Vulnerabilities](#report-security-vulnerabilities)
@@ -46,10 +45,6 @@ If you forget to sign off on a commit, your PR will be flagged and blocked from 
 ```shell
 git rebase --signoff main
 ```
-
-### Commit signing
-
-In order to help ensure the integrity of our code, the kgateway project requires that your commits are signed and verified. For more details as well as instructions for setting up signing, please review the [GitHub docs](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification).
 
 ### Code review guidelines
 

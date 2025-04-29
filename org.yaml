@@ -24,11 +24,13 @@ orgs:
     - kdorosh
     - kevin-shelaga
     - Nadine2016
+    - nfuden
     - npolshakova
     - petrmc
     - puertomontt
     - Rachael-Graham
     - saiskee
+    - sam-heilbron
     - shashankram
     - sheidkamp
     - Sodman
@@ -36,6 +38,7 @@ orgs:
     - timflannagan
     - tjons
     - wendeh
+    - williamgrh
     - ymesika
     teams:
       community-maintainers:
@@ -55,8 +58,6 @@ orgs:
         maintainers:
         - jenshu
         - lgadban
-        - nfuden
-        - sam-heilbron
         - yuval-k
         members:
         - ashleywang1
@@ -65,8 +66,10 @@ orgs:
         - ilackarms
         - jahvon
         - jbohanon
+        - nfuden
         - npolshakova
         - saiskee
+        - sam-heilbron
         - shashankram
         - sheidkamp
         - stevenctl
@@ -79,13 +82,13 @@ orgs:
         description: Maintainers of the kgateway.dev repo
         maintainers:
         - linsun
-        - williamgrh
         members:
         - artberger
         - craigbox
         - Nadine2016
         - Rachael-Graham
         - wendeh
+        - williamgrh
         privacy: closed
         repos:
           kgateway.dev: maintain
@@ -102,6 +105,7 @@ orgs:
         - jahvon
         - jbohanon
         - kdorosh
+        - nfuden
         - tjons
         privacy: closed
       org-members:
@@ -130,11 +134,13 @@ orgs:
         - kdorosh
         - kevin-shelaga
         - Nadine2016
+        - nfuden
         - npolshakova
         - petrmc
         - puertomontt
         - Rachael-Graham
         - saiskee
+        - sam-heilbron
         - shashankram
         - sheidkamp
         - Sodman
@@ -142,6 +148,7 @@ orgs:
         - timflannagan
         - tjons
         - wendeh
+        - williamgrh
         - ymesika
         privacy: closed
         repos:

@@ -1,36 +1,88 @@
-# Contributing to kgateway
+# Contributing to kgateway <!-- omit from toc -->
 
 Excited about kgateway and want to help make it better?
 
 Here are some of the ways you can contribute:
 
-- [Contributing code](#contributing-code)
-- [Requirements for PRs](#requirements-for-prs)
-  - [DCO](#dco)
-  - [Testing](#testing)
-  - [Error Reporting](#error-reporting)
-  - [Code review guidelines](#code-review-guidelines)
 - [Ways to contribute](#ways-to-contribute)
   - [Report Security Vulnerabilities](#report-security-vulnerabilities)
   - [File issues](#file-issues)
   - [Find something to work on](#find-something-to-work-on)
+- [Contributing code](#contributing-code)
   - [Small changes (bug fixes)](#small-changes-bug-fixes)
   - [Large changes (features, refactors)](#large-changes-features-refactors)
+  - [Tips to get started](#tips-to-get-started)
+- [Requirements for PRs](#requirements-for-prs)
+  - [DCO](#dco)
+  - [Testing](#testing)
+    - [Unit Tests](#unit-tests)
+    - [Declarative Tests](#declarative-tests)
+    - [End-to-End (E2E) Tests](#end-to-end-e2e-tests)
+  - [Error Reporting](#error-reporting)
+  - [Code review guidelines](#code-review-guidelines)
 - [Documentation](#documentation)
 - [Get in touch](#get-in-touch)
 
 To understand contributor roles, refer to the [contributor ladder guide](CONTRIBUTOR_LADDER.md).
 
+## Ways to contribute
+
+Thanks for your interest in contributing to kgateway! We have a few different ways you can get involved.
+
+### Report Security Vulnerabilities
+
+If you would like to report a security issue, please refer to the [kgateway documentation site](https://kgateway.dev/docs/reference/vulnerabilities/). 
+
+### File issues
+
+To file a bug or feature request in the [kgateway GitHub repo](https://github.com/kgateway-dev/kgateway):
+
+1. Search existing issues first.
+2. If no existing issue addresses your case, create a new one.
+3. Use issue templates when available.
+4. Add information or react to existing issues, such as a thumbs-up 👍 to indicate agreement.
+
+### Find something to work on
+
+The project uses [GitHub issues](https://github.com/kgateway-dev/kgateway/issues) to track bugs and features. Issues labeled with the `Good First Issue` label are a great place to start.
+
+Additionally, the project has a [milestone](https://github.com/kgateway-dev/kgateway/milestones) for the next release. Any issues labeled with a milestone are a great source of things to work on. If an issue has not been assigned to a milestone, you can ask to work on it by leaving a comment on the issue.
+
+Flaky tests are a common source of issues and a good place to start contributing to the project. You can find these issues by filtering with the `Type: CI Test Flake` label. If you see a test that is failing regularly, you can leave a comment asking if someone is working on it.
+
 ## Contributing code
 
 Contributing features to kgateway is a great way to get involved with the project. We welcome contributions of all sizes, from small bug fixes to large new features. Code contribution is done via github's [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) (PRs).
 
-If you are interested in contributing a new feature, please follow these steps:
-- For small features (let's say, less than 100 LoC), you can open a pull request (PR) directly.
-- For larger features, we recommend opening an issue first to discuss your proposed changes with the community. This will help us understand the problem you are trying to solve, ensure that we are all on the same page, and that your proposed change is aligned with the project.
+### Small changes (bug fixes)
+
+For small changes (less than 100 lines of code):
+
+1. Open a pull request.
+2. Ensure tests verify the fix.
+3. If needed, [update the documentation](#documentation).
+
+### Large changes (features, refactors)
+
+Large features often touch many files, extend many lines of code, and often cover issues such as:
+
+* Large bug fixes
+* New features
+* Refactors of the existing codebase
+
+For large changes:
+1. **Open an issue first**: Open an issue about your bug in the [kgateway](https://github.com/kgateway-dev/kgateway) repo.
+2. **Message us on Slack**: Reach out to us to discuss your proposed changes in our [CNCF Slack channel, `#kgateway`](https://cloud-native.slack.com/archives/C080D3PJMS4).
+3. **Agree on implementation plan**: Write a plan for how this feature or bug fix should be implemented. Should this be one pull request or multiple incremental improvements? Who is going to do each part? Discuss it with us on Slack or join our [community meeting](https://calendar.google.com/calendar/u/1?cid=ZDI0MzgzOWExMGYwMzAxZjVkYjQ0YTU0NmQ1MDJmODA5YTBjZDcwZGI4ZTBhZGNhMzIwYWRlZjJkOTQ4MzU5Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+4. **Submit a draft PR**: It's important to get feedback as early as possible to ensure that any big improvements end up being merged. Open a draft pull request from your fork, label it `work in progress`, and start getting feedback.
+5. **Review**: At least one maintainer should sign off on the change before it’s merged. Look at the following [Code review](#code-review-guidelines) section to learn about what we're looking for.
+6. **Close out**: A maintainer will merge the PR and let you know about the next release plan.
+
 
 For large or broad changes, we may ask you to write an enhancement proposal. Use [this template](https://github.com/kgateway-dev/kgateway/blob/main/design/template.md) to get you started.
 You can find the existing ehancement proposals [here](https://github.com/kgateway-dev/kgateway/tree/main/design).
+
+### Tips to get started
 
 To help you get started with contributing code, We have an [example plugin](https://github.com/kgateway-dev/kgateway/tree/main/examples/plugin) in the kgateway repo. A write-up explaining how plugins work is available [here](https://github.com/kgateway-dev/kgateway/blob/main/devel/architecture/kgateway/DEV.md). We also recomend looking at past PRs that are doing similar things to what you are trying to do. 
 
@@ -110,7 +162,7 @@ It is important to surface errors in multiple ways because different users inter
 ### Code review guidelines
 
 Code can be reviewed by anyone! Even if you are not a maintainer, please feel free to add your comments.
-All code must be reviewed by at least one [maintainer](https://github.com/kgateway-dev/community/blob/main/MAINTAINERS.md). Key requirements:
+All code must be reviewed by at least one [maintainer](https://github.com/kgateway-dev/community/blob/main/MAINTAINERS.md) before merging. Key requirements:
 
 1. **Code Style**
    
@@ -136,55 +188,6 @@ All code must be reviewed by at least one [maintainer](https://github.com/kgatew
    - Please address or acknowledge review comments on your PRs.
    - If you are reviewing, please try to leave helpful, polite, substantive comments. Minor preferences can be called out with `nit`.
    - Write a PR description that can be pulled into a changelog.
-
-## Ways to contribute
-
-Thanks for your interest in contributing to kgateway! We have a few different ways you can get involved.
-
-### Report Security Vulnerabilities
-
-If you would like to report a security issue, please refer to the [kgateway documentation site](https://kgateway.dev/docs/reference/vulnerabilities/). 
-
-### File issues
-
-To file a bug or feature request in the [kgateway GitHub repo](https://github.com/kgateway-dev/kgateway):
-
-1. Search existing issues first.
-2. If no existing issue addresses your case, create a new one.
-3. Use issue templates when available.
-4. Add information or react to existing issues, such as a thumbs-up 👍 to indicate agreement.
-
-### Find something to work on
-
-The project uses [GitHub issues](https://github.com/kgateway-dev/kgateway/issues) to track bugs and features. Issues labeled with the `Good First Issue` label are a great place to start.
-
-Additionally, the project has a [milestone](https://github.com/kgateway-dev/kgateway/milestones) for the next release. Any issues labeled with a milestone are a great source of things to work on. If an issue has not been assigned to a milestone, you can ask to work on it by leaving a comment on the issue.
-
-Flaky tests are a common source of issues and a good place to start contributing to the project. You can find these issues by filtering with the `Type: CI Test Flake` label. If you see a test that is failing regularly, you can leave a comment asking if someone is working on it.
-
-### Small changes (bug fixes)
-
-For small changes (less than 100 lines of code):
-
-1. Open a pull request.
-2. Ensure tests verify the fix.
-3. If needed, [update the documentation](#documentation).
-
-### Large changes (features, refactors)
-
-Large features often touch many files, extend many lines of code, and often cover issues such as:
-
-* Large bug fixes
-* New features
-* Refactors of the existing codebase
-
-For large changes:
-1. **Open an issue first**: Open an issue about your bug in the [kgateway](https://github.com/kgateway-dev/kgateway) repo.
-2. **Message us on Slack**: Reach out to us to discuss your proposed changes in our [CNCF Slack channel, `#kgateway`](https://cloud-native.slack.com/archives/C080D3PJMS4).
-3. **Agree on implementation plan**: Write a plan for how this feature or bug fix should be implemented. Should this be one pull request or multiple incremental improvements? Who is going to do each part? Discuss it with us on Slack or join our [community meeting](https://calendar.google.com/calendar/u/1?cid=ZDI0MzgzOWExMGYwMzAxZjVkYjQ0YTU0NmQ1MDJmODA5YTBjZDcwZGI4ZTBhZGNhMzIwYWRlZjJkOTQ4MzU5Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-4. **Submit a draft PR**: It's important to get feedback as early as possible to ensure that any big improvements end up being merged. Open a draft pull request from your fork, label it `work in progress`, and start getting feedback.
-5. **Review**: At least one maintainer should sign off on the change before it’s merged. Look at the following [Code review](#code-review-guidelines) section to learn about what we're looking for.
-6. **Close out**: A maintainer will merge the PR and let you know about the next release plan.
 
 ## Documentation
 

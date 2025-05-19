@@ -64,7 +64,7 @@ git rebase --signoff main
 
 ### Testing
 
-Tests are essential for any non-trivial pull request (PR). They ensure that your changes remain stable and do not break due to future updates. Tests are a critical part of maintaining kgateway's stability and long-term maintainability.
+Tests are essential for any non-trivial PR. They ensure that your feature remains operational and does not break due to future updates. Tests are a critical part of maintaining kgateway's stability and long-term maintainability.
 
 When writing tests, consider how users will interact with the feature and design the tests to reflect user behavior - i.e. test what the user would care about.
 
@@ -72,7 +72,7 @@ We have the following types of tests:
 
 #### Unit Tests
 
-- These are useful for testing small, isolated units of code, such as a single function or a small component.
+These are useful for testing small, isolated units of code, such as a single function or a small component.
 
 #### Declarative Tests
 
@@ -109,7 +109,7 @@ It is important to surface errors in multiple ways because different users inter
 
 ### Code review guidelines
 
-Code may be reviewed by anyone! even if you are not maintainer, please feel free to add your comments.
+Code can be reviewed by anyone! Even if you are not a maintainer, please feel free to add your comments.
 All code must be reviewed by at least one [maintainer](https://github.com/kgateway-dev/community/blob/main/MAINTAINERS.md). Key requirements:
 
 1. **Code Style**

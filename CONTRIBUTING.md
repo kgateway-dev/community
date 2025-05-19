@@ -4,8 +4,11 @@ Excited about kgateway and want to help make it better?
 
 Here are some of the ways you can contribute:
 
+- [Contributing code](#contributing-code)
 - [Requirements for PRs](#requirements-for-prs)
   - [DCO](#dco)
+  - [Testing](#testing)
+  - [Error Reporting](#error-reporting)
   - [Code review guidelines](#code-review-guidelines)
 - [Ways to contribute](#ways-to-contribute)
   - [Report Security Vulnerabilities](#report-security-vulnerabilities)
@@ -17,6 +20,19 @@ Here are some of the ways you can contribute:
 - [Get in touch](#get-in-touch)
 
 To understand contributor roles, refer to the [contributor ladder guide](CONTRIBUTOR_LADDER.md).
+
+## Contributing code
+
+Contributing features to kgateway is a great way to get involved with the project. We welcome contributions of all sizes, from small bug fixes to large new features. Code contribution is done via github's [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) (PRs).
+
+If you are interested in contributing a new feature, please follow these steps:
+- For small features (let's say, less than 100 LoC), you can open a pull request (PR) directly.
+- For larger features, we recommend opening an issue first to discuss your proposed changes with the community. This will help us understand the problem you are trying to solve, ensure that we are all on the same page, and that your proposed change is aligned with the project.
+
+For large or broad changes, we may ask you to write an enhancement proposal. Use [this template](https://github.com/kgateway-dev/kgateway/blob/main/design/template.md) to get you started.
+You can find the existing ehancement proposals [here](https://github.com/kgateway-dev/kgateway/tree/main/design).
+
+To help you get started with contributing code, We have an [example plugin](https://github.com/kgateway-dev/kgateway/tree/main/examples/plugin) in the kgateway repo. A write-up explaining how plugins work is available [here](https://github.com/kgateway-dev/kgateway/blob/main/devel/architecture/kgateway/DEV.md). We also recomend looking at past PRs that are doing similar things to what you are trying to do. 
 
 ## Requirements for PRs
 
@@ -46,8 +62,54 @@ If you forget to sign off on a commit, your PR will be flagged and blocked from 
 git rebase --signoff main
 ```
 
+### Testing
+
+Tests are essential for any non-trivial pull request (PR). They ensure that your changes remain stable and do not break due to future updates. Tests are a critical part of maintaining kgateway's stability and long-term maintainability.
+
+When writing tests, consider how users will interact with the feature and design the tests to reflect user behavior - i.e. test what the user would care about.
+
+We have the following types of tests:
+
+#### Unit Tests
+
+- These are useful for testing small, isolated units of code, such as a single function or a small component.
+
+#### Declarative Tests
+
+These tests verify that an input YAML file is correctly translated into the expected output YAML file.
+
+We have two main types of YAML tests:
+- [Environment Tests](https://github.com/kgateway-dev/kgateway/blob/main/internal/kgateway/setup/setup_test.go): These tests run almost all of kgateway's controllers. They help ensure that controller behavior is correct (e.g., policy attachment, status updates, etc.).
+- [Translator Tests](https://github.com/kgateway-dev/kgateway/blob/main/internal/kgateway/translator/gateway/gateway_translator_test.go): These tests run only the translator using fake Kubernetes clients. They help verify that resource translation remains consistent.
+
+#### End-to-End (E2E) Tests
+
+These tests are done in a `kind` cluster with Envoy, using real traffic.  
+See: https://github.com/kgateway-dev/kgateway/tree/main/test/kubernetes/e2e
+
+Features that introduce behavior changes to Envoy should be covered by E2E tests (exceptions can be made for minor changes). Testing with real Envoy and real traffic is crucial because it:
+- Prevents regressions.
+- Detects behavior changes from envoy.
+- Ensures the feature is not deprecated.
+- Confirms the feature works as the user expects it to.
+
+For example, consider this scenario: You are adding a CORS policy. You configure Envoy's route but forget to add the CORS filter. Only an E2E test would catch this issue.
+
+### Error Reporting
+
+If you are contributing a feature that produces error conditions, it is important to surface these errors to the user. Use the following methods to report errors, and try to use **all** of them if possible:
+- Logs
+- Metrics
+- Status on the Custom Resource (using conditions)
+- Command-line `check` command (note: this command may not be fully implemented at the time of writing)
+
+If needed, we can also enhance the kgateway admin page with additional supplemental information.
+
+It is important to surface errors in multiple ways because different users interact with kgateway differently. By reporting errors in various places, we maximize the chances of users noticing and addressing them.
+
 ### Code review guidelines
 
+Code may be reviewed by anyone! even if you are not maintainer, please feel free to add your comments.
 All code must be reviewed by at least one [maintainer](https://github.com/kgateway-dev/community/blob/main/MAINTAINERS.md). Key requirements:
 
 1. **Code Style**

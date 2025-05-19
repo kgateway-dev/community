@@ -52,7 +52,8 @@ Flaky tests are a common source of issues and a good place to start contributing
 
 ## Contributing code
 
-Contributing features to kgateway is a great way to get involved with the project. We welcome contributions of all sizes, from small bug fixes to large new features. Code contribution is done via github's [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) (PRs).
+Contributing features to kgateway is a great way to get involved with the project. We welcome contributions of all sizes, from small bug fixes to large new features. Kgateway uses a "fork and pull request" approach. This means that as a contributor, you create your own personal fork of a code repository in GitHub and push your contributions to a branch in your own fork first. When you are ready to contribute, open a pull request (PR) against the project's repository. For more details, see the [GitHub docs about working with forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks).
+
 
 ### Small changes (bug fixes)
 
@@ -89,8 +90,6 @@ To help you get started with contributing code, We have an [example plugin](http
 ## Requirements for PRs
 
 Contributing to open source can be a daunting task, especially if you are a new contributor and are not yet familiar with the workflows commonly used by open source projects. 
-
-Kgateway uses a "fork and pull request" approach. This means that as a contributor, you create your own personal fork of a code repository in GitHub and push your contributions to a branch in your own fork first. When you are ready to contribute, open a pull request (PR) against the project's repository. For more details, see the [GitHub docs about working with forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks).
 
 After you open a PR, the project maintainers will review your changes. Reviews typically include iterations of suggestions and changes. This is totally normal, so don't be discouraged if asked to make changes to your contribution.
 

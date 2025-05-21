@@ -1,6 +1,7 @@
 orgs:
   kgateway-dev:
     admins:
+    - christian-posta
     - gateway-bot
     - ilevine
     - ilrudie
@@ -47,6 +48,7 @@ orgs:
         - ilrudie
         - jenshu
         - linsun
+        - christian-posta
         members:
         - craigbox
         - danehans
@@ -81,6 +83,7 @@ orgs:
       documentation-maintainers:
         description: Maintainers of the kgateway.dev repo
         maintainers:
+        - christian-posta
         - linsun
         members:
         - artberger
@@ -111,6 +114,7 @@ orgs:
       org-members:
         description: Members of the org; may triage
         maintainers:
+        - christian-posta
         - gateway-bot
         - ilevine
         - ilrudie
@@ -123,6 +127,7 @@ orgs:
         - arianaw66
         - artberger
         - ashleywang1
+        - christian-posta
         - craigbox
         - danehans
         - davidjumani

@@ -10,6 +10,7 @@ Please keep the table sorted.
 | ---- | ---- | ---- | ---- |
 | Art Berger | artberger | Docs | Solo.io |
 | Ashley Wang | ashleywang1 | Controller | Solo.io |
+| Christian Posta | christian-posta | Community, Docs | Solo.io |
 | Craig Box | craigbox | Community, Docs | Solo.io |
 | Daneyon Hansen | danehans | Controller, Community | Solo.io |
 | Eitan Yarmush | EItanya | Controller, Proxy | Solo.io |

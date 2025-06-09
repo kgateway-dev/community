@@ -23,6 +23,7 @@ Please keep the table sorted.
 | Nadine Spies | Nadine2016 | Docs | Solo.io |
 | Nathan Fudenberg | nfuden | Controller, Proxy | Sandgarden |
 | Nina Polshakova | npolshakova | Controller | Solo.io |
+| Omar Hammami | puertomontt | Controller | Solo.io |
 | Rachael Graham | Rachael-Graham | Docs | Solo.io |
 | Sai Ekbote | saiskee | Controller, Proxy | HubSpot |
 | Sam Heilbron | sam-heilbron | Controller | Solo.io |

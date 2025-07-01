@@ -31,6 +31,7 @@ Please keep the table sorted.
 | Sam Heilbron | sam-heilbron | Controller | Solo.io |
 | Scott Weiss | ilackarms | Controller | Solo.io |
 | Seth Heidkamp | sheidkamp | Controller | Solo.io |
+| Shane O'Donnell | Sodman | Controller | Solo.io |
 | Shashank Ram | shashankram | Controller | Solo.io |
 | Steven Landow | stevenctl | Controller | Solo.io |
 | Tim Flannagan | timflannagan | Controller | Solo.io |

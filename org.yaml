@@ -44,6 +44,7 @@ orgs:
     - wendeh
     - williamgrh
     - ymesika
+    - zhengkezhou1
     teams:
       community-maintainers:
         description: Maintainers of the community repo
@@ -163,6 +164,7 @@ orgs:
         - wendeh
         - williamgrh
         - ymesika
+        - zhengkezhou1
         privacy: closed
         repos:
           kgateway: triage

@@ -8,6 +8,7 @@ orgs:
     - lgadban
     - linsun
     - thelinuxfoundation
+    - timflannagan
     - yuval-k
     members:
     - arianaw66
@@ -42,7 +43,6 @@ orgs:
     - sheidkamp
     - Sodman
     - stevenctl
-    - timflannagan
     - tjons
     - wendeh
     - williamgrh
@@ -67,6 +67,7 @@ orgs:
         maintainers:
         - jenshu
         - lgadban
+        - timflannagan
         - yuval-k
         members:
         - ashleywang1
@@ -85,7 +86,6 @@ orgs:
         - sheidkamp
         - Sodman
         - stevenctl
-        - timflannagan
         - tjons
         privacy: closed
         repos:
@@ -131,6 +131,7 @@ orgs:
         - lgadban
         - linsun
         - thelinuxfoundation
+        - timflannagan
         - yuval-k
         members:
         - arianaw66
@@ -165,7 +166,6 @@ orgs:
         - sheidkamp
         - Sodman
         - stevenctl
-        - timflannagan
         - tjons
         - wendeh
         - williamgrh

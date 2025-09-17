@@ -55,8 +55,7 @@ We welcome community contributions and encourage members to work on issues. To m
 
 ### Assignment Process
 - **Organization members**: Can self-assign issues using the GitHub assignee dropdown
-- **External contributors**: Should comment on the issue expressing interest in working on it. A maintainer will then assign the issue to you
-- **Note**: We previously attempted to support the `/assign` command ([kgateway#11674](https://github.com/kgateway-dev/kgateway/issues/11674)) but closed it as it needed more consideration
+- **External contributors**: Should comment on the issue expressing interest in working on it. A maintainer will then assign the issue to you.
 
 ### Stale Assignment Policy
 - **Timeframe**: If an assignee hasn't made any visible progress (comments, commits, or draft PRs) within **3 weeks** of assignment, the issue may be considered stale

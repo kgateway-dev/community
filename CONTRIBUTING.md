@@ -50,6 +50,21 @@ Additionally, the project has a [milestone](https://github.com/kgateway-dev/kgat
 
 Flaky tests are a common source of issues and a good place to start contributing to the project. You can find these issues by filtering with the `Type: CI Test Flake` label. If you see a test that is failing regularly, you can leave a comment asking if someone is working on it.
 
+### Community Assignments
+We welcome community contributions and encourage members to self-assign issues they'd like to work on. To maintain an active and healthy development environment, we have the following policies:
+
+### Stale Assignment Policy
+- **Timeframe**: If an assignee hasn't made any visible progress (comments, commits, or draft PRs) within **3 weeks** of assignment, the issue may be considered stale
+- **Communication**: We'll reach out to check on progress and offer assistance before unassigning
+- **Unassignment**: After **1 additional week** (4 weeks total) without response or progress, issues will be unassigned and made available for other contributors
+- **Re-assignment**: Previous assignees are welcome to request re-assignment if they become available to work on the issue again
+
+### Best Practices for Assignees
+- Comment on the issue with your approach or ask questions if you need clarification
+- Provide regular updates (even brief ones) if work is taking longer than expected
+- Create draft PRs early to show progress and get feedback
+- Don't hesitate to ask for help in the issue comments or community channels like the #kgateway CNCF slack channel
+
 ## Contributing code
 
 Contributing features to kgateway is a great way to get involved with the project. We welcome contributions of all sizes, from small bug fixes to large new features. Kgateway uses a "fork and pull request" approach. This means that as a contributor, you create your own personal fork of a code repository in GitHub and push your contributions to a branch in your own fork first. When you are ready to contribute, open a pull request (PR) against the project's repository. For more details, see the [GitHub docs about working with forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks).

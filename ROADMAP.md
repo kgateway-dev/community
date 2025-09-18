@@ -4,17 +4,48 @@ This document provides a high level overview of major work being planned, design
 
 ## Summary
 
-| Feature | Status |
-| ---- | ---- |
-| new extension APIs to supplement Kubernetes Gateway API | Planned |
-| AI/LLM provider support (AI upstreams) | In Design |
-| Kubernetes Gateway API 1.2 support | Implementation In Progress |
-| Kgateway as Istio Waypoint provider | Planned |
-| Determine future of the classic API | Planned |
-| Rename CLI | Planned |
-| Build, Test and Release | Planned |
-| Improve Rate Limit Server UX | Planned |
-| Improved status writing | Planned |
+### Original roadmap for 2.0 release push
+
+| Feature | Status | Notes |
+| ---- | ---- | ---- |
+| new extension APIs to supplement Kubernetes Gateway API | :green_circle: | |
+| AI/LLM provider support (AI upstreams) | :green_circle: | |
+| Kubernetes Gateway API 1.2 support | :green_circle: | |
+| Kgateway as Istio Waypoint provider | :yellow_circle: | Implemented as Alpha, less community demand than expected |
+| Determine future of the classic API | :green_circle: | |
+| Rename CLI | :yellow_circle: | Alpha work done to add kgateway specific features on top of gwctl |
+| Build, Test and Release | :green_circle: | |
+| Improve Rate Limit Server UX | :green_circle: | |
+| Improved status writing | :green_circle: | |
+| Route delegation | :green_circle: | |
+
+### In flight items for 2.1
+
+| Feature | Status | Notes |
+| ---- | ---- | ---- |
+| Policy status | :green_circle: | |
+| Policy merging | :green_circle: | |
+| Invalid policy replacement | :green_circle: | |
+| Full feature parity with 1.x | :yellow_circle: | In-flight, will continue into 2.2+ |
+| GW API 1.4 | :yellow_circle: | In-flight |
+| Deprecate Envoy-based AI extensions | :yellow_circle: | In-flight |
+
+### High-level 2.2 roadmap
+
+* Continue policy parity with 1.x
+* Increase support and parity with agentgateway as a dataplane
+  * AI Gateway
+  * GIE
+* Implement JWT API
+* Finish migrating off envoy-gloo as the envoy dataplane implementation
+* Continue code cleanup from initial 1.x migration
+  * Finish migrating to KRT
+    * Notably, https://github.com/kgateway-dev/kgateway/issues/12207
+* Test improvements
+
+
+More up-to-date insight into the ongoing work can be seen on the [project board](https://github.com/orgs/kgateway-dev/projects/3/views/9).
+This board will be revisited to better track the roadmap items described above.
 
 ## Get involved
 

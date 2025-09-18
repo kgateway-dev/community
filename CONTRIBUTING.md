@@ -58,9 +58,9 @@ We welcome community contributions and encourage members to work on issues. To m
 - **External contributors**: Should comment on the issue expressing interest in working on it. A maintainer will then assign the issue to you.
 
 ### Stale Assignment Policy
-- **Timeframe**: If an assignee hasn't made any visible progress (comments, commits, or draft PRs) within **3 weeks** of assignment, the issue may be considered stale
+- **Timeframe**: If an assignee hasn't made any visible progress (comments, commits, or draft PRs) within **30 days** of assignment, the issue may be considered stale
 - **Communication**: We'll reach out to check on progress and offer assistance before unassigning
-- **Unassignment**: After **1 additional week** (4 weeks total) without response or progress, issues will be unassigned and made available for other contributors
+- **Unassignment**: After **1 additional week** without response or progress, issues will be unassigned and made available for other contributors
 - **Re-assignment**: Previous assignees are welcome to request re-assignment if they become available to work on the issue again
 
 ### Best Practices for Assignees

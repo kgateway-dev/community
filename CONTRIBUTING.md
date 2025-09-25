@@ -8,6 +8,10 @@ Here are some of the ways you can contribute:
   - [Report Security Vulnerabilities](#report-security-vulnerabilities)
   - [File issues](#file-issues)
   - [Find something to work on](#find-something-to-work-on)
+- [Community Assignments](#community-assignments)
+  - [Assignment Process](#assignment-process)
+  - [Stale Assignment Policy](#stale-assignment-policy)
+  - [Best Practices for Assignees](#best-practices-for-assignees)
 - [Contributing code](#contributing-code)
   - [Small changes (bug fixes)](#small-changes-bug-fixes)
   - [Large changes (features, refactors)](#large-changes-features-refactors)
@@ -50,7 +54,7 @@ Additionally, the project has a [milestone](https://github.com/kgateway-dev/kgat
 
 Flaky tests are a common source of issues and a good place to start contributing to the project. You can find these issues by filtering with the `Type: CI Test Flake` label. If you see a test that is failing regularly, you can leave a comment asking if someone is working on it.
 
-### Community Assignments
+## Community Assignments
 We welcome community contributions and encourage members to work on issues. To maintain an active and healthy development environment, we have the following policies:
 
 ### Assignment Process
@@ -58,7 +62,7 @@ We welcome community contributions and encourage members to work on issues. To m
 - **External contributors**: Should comment on the issue expressing interest in working on it. A maintainer will then assign the issue to you.
 
 ### Stale Assignment Policy
-- **Timeframe**: If an assignee hasn't made any visible progress (comments, commits, or draft PRs) within **30 days** of assignment, the issue may be considered stale
+- **Timeframe**: If an assignee hasn't made any visible progress (comments, commits, or draft PRs) within **30 days** of assignment, the issue assignment may be considered stale
 - **Communication**: We'll reach out to check on progress and offer assistance before unassigning
 - **Unassignment**: After **5 additional days** without response or progress, issues will be unassigned and made available for other contributors
 - **Re-assignment**: Previous assignees are welcome to request re-assignment if they become available to work on the issue again

@@ -44,7 +44,7 @@ This document provides a high level overview of major work being planned, design
 * Test improvements
 
 
-More up-to-date insight into the ongoing work can be seen on the [project board](https://github.com/orgs/kgateway-dev/projects/3/views/9).
+More up-to-date insight into the ongoing work can be seen on the [project board](https://github.com/orgs/kgateway-dev/projects/3/views/8).
 This board will be revisited to better track the roadmap items described above.
 
 ## Get involved

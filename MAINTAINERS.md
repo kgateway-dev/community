@@ -39,6 +39,7 @@ Please keep the table sorted.
 | Tyler Schade | tjons | Controller | GEICO Insurance |
 | Wendie Cheung | wendeh | Docs | Solo.io |
 | Will Rigby-Hall | williamgrh | Docs | Solo.io |
+| Yossi Mesika | ymesika | Controller | Solo.io |
 | Yuval Kohavi | yuval-k | Controller, Proxy | Solo.io |
 
 ## Emeritus

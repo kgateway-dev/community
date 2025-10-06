@@ -89,6 +89,7 @@ orgs:
         - Sodman
         - stevenctl
         - tjons
+        - ymesika
         privacy: closed
         repos:
           kgateway: maintain

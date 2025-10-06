@@ -1,6 +1,6 @@
 # Kgateway governance
 
-Kgateway is dedicated to building a feature-rich, fast and flexible next-generation API gateway. This governance document details how the project is run.
+Kgateway is dedicated to building a feature-rich, fast and flexible next-generation API gateway. This governance document details how the project is run. All members of the kgateway community must abide by the project's [Code of Conduct](CODE-OF-CONDUCT.md). 
 
 ## Values
 

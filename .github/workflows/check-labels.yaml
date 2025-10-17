@@ -13,8 +13,8 @@ jobs:
           PR_LABELS: ${{ toJson(github.event.pull_request.labels) }}
         run: |
           echo "$PR_LABELS" | jq -r '.[].name' | while read -r label; do
-            if [[ "$label" == "do-not-merge"* || "$label" == "work in progress" ]]; then
-              echo "Pull request has 'do-not-merge' or 'work in progress' label. Blocking merge."
+            if [[ "$label" == "do-not-merge"* ]]; then
+              echo "Pull request has 'do-not-merge' label. Blocking merge."
               exit 1
             fi
           done

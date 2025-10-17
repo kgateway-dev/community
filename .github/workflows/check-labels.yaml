@@ -1,0 +1,20 @@
+# This workflow blocks PRs from merging if they have certain labels.
+name: Pre-merge label checker
+on:
+  pull_request:
+    types: [opened, edited, reopened, synchronize, labeled, unlabeled]
+
+jobs:
+  check-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for labels that should block merge
+        env:
+          PR_LABELS: ${{ toJson(github.event.pull_request.labels) }}
+        run: |
+          echo "$PR_LABELS" | jq -r '.[].name' | while read -r label; do
+            if [[ "$label" == "do-not-merge"* || "$label" == "work in progress" ]]; then
+              echo "Pull request has 'do-not-merge' or 'work in progress' label. Blocking merge."
+              exit 1
+            fi
+          done

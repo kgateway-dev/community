@@ -19,6 +19,7 @@ Please keep the table sorted.
 | Jacob Bohanon | jbohanon | Controller, Proxy  | Coinbase |
 | Jahvon Dockery | jahvon | Controller | CarGurus |
 | Jenny Shu | jenshu | Controller, Community | Solo.io |
+| John Howard | howardjohn | Controller | Solo.io |
 | Kevin Dorosh | kdorosh | Controller, Proxy | _unaffiliated_ |
 | Lawrence Gadban | lgadban | Controller | Solo.io |
 | Lin Sun | linsun | Community, Docs | Solo.io |

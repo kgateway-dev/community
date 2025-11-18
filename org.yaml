@@ -100,6 +100,56 @@ orgs:
         privacy: closed
         repos:
           kgateway: maintain
+      kgateway-api-owners:
+        description: API owners of the kgateway repo
+        maintainers:
+          - jenshu
+          - lgadban
+          - npolshakova
+          - timflannagan
+          - yuval-k
+        members:
+          - ashleywang1
+          - danehans
+          - davidjumani
+          - EItanya
+          - ilackarms
+          - jahvon
+          - jbohanon
+          - nfuden
+          - puertomontt
+          - saiskee
+          - sam-heilbron
+          - shashankram
+          - sheidkamp
+          - Sodman
+          - stevenctl
+          - tjons
+      kgateway-ci-owners:
+        description: CI owners of the kgateway repo
+        maintainers:
+          - jenshu
+          - lgadban
+          - npolshakova
+          - timflannagan
+          - yuval-k
+        members:
+          - ashleywang1
+          - danehans
+          - davidjumani
+          - EItanya
+          - ilackarms
+          - jahvon
+          - jbohanon
+          - nfuden
+          - puertomontt
+          - saiskee
+          - sam-heilbron
+          - shashankram
+          - sheidkamp
+          - Sodman
+          - stevenctl
+          - tjons
       documentation-maintainers:
         description: Maintainers of the kgateway.dev repo
         maintainers:

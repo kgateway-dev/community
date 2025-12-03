@@ -115,6 +115,30 @@ orgs:
         privacy: closed
         repos:
           kgateway.dev: maintain
+      kgateway-api-owners:
+        description: Maintainers of the kgateway envoy API
+        maintainers:
+        - howardjohn
+        - jenshu
+        - lgadban
+        - shashankram
+        - timflannagan
+        - yuval-k
+        privacy: closed
+        repos:
+          kgateway: maintain
+      agw-api-owners:
+        description: Maintainers of the kgateway agentgateway API
+        maintainers:
+        - howardjohn
+        - jenshu
+        - lgadban
+        - npolshakova
+        - shashankram
+        - yuval-k
+        privacy: closed
+        repos:
+          kgateway: maintain
       eligible-voters:
         description: ""
         maintainers:

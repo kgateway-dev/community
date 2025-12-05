@@ -72,7 +72,6 @@ orgs:
       controller-maintainers:
         description: Maintainers of the kgateway repo
         maintainers:
-        - chandler-solo
         - jenshu
         - lgadban
         - npolshakova
@@ -80,6 +79,7 @@ orgs:
         - yuval-k
         members:
         - ashleywang1
+        - chandler-solo
         - danehans
         - davidjumani
         - EItanya

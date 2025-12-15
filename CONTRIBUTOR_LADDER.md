@@ -84,7 +84,7 @@ Any current Maintainer may nominate a current Organization Member to become a ne
 
 You must already be a Maintainer of kgateway to become a CODEOWNER.
 
-1. Review/author at least 10 PRs in the repository under the specific CODEOWNERS group
+1. Review at least 5 PRs and author 5 PRs in the repository under the specific CODEOWNERS group
 2. Get nominated by an existing CODEOWNER of that group and update the org.yaml and get a +1 from another CODEOWNER
 
 Additional specific CODEOWNER requirements can be decided by the CODEOWNER group and the community as needed. 

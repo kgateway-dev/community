@@ -50,7 +50,7 @@ To apply to become a member of the kgateway-dev organization on GitHub, please o
 1. Use the [membership request template](.github/PULL_REQUEST_TEMPLATE/apply_to_be_a_member.md). This template is linked from the default template when you open a PR, or you can paste this URL in your browser `https://github.com/kgateway-dev/community/compare/main...<my-fork>:<my-branch>?quick_pull=1&title=Request%20org%20membership%20for%20<user>&labels=membership&template=apply_to_be_a_member.md`, replacing:
     - `<my-fork>:<my-branch>` with your fork/branch name, and
     - `<user>` with your GitHub username
-1. Add your GitHub username to the list of members (under `orgs.kgateway-dev.members` and `orgs.kgateway-dev.teams.org-members.members`) in our [organization file](./org.yaml). Please add your name in the correct alphabetical order to maintain a tidy organization file.
+2. Add your GitHub username to the list of members (under `orgs.kgateway-dev.members` and `orgs.kgateway-dev.teams.org-members.members`) in our [organization file](./org.yaml). Please add your name in the correct alphabetical order to maintain a tidy organization file.
 
 ### Maintainer
 
@@ -75,10 +75,19 @@ A Maintainer must meet the responsibilities and requirements of an Organization 
     
 Any current Maintainer may nominate a current Organization Member to become a new Maintainer in one or more repositories, by opening a PR in the community repository using the [maintainer nomination template](.github/PULL_REQUEST_TEMPLATE/nominate_a_maintainer.md). The following requirements must be met before the PR is merged:
 1. Each item in the template checklist must be satisfied.
-1. At least 2 current Maintainers from each relevant repository must approve the PR.
-1. There must be no objections from other maintainers. This can be achieved by either of the following, whichever occurs first:
+2. At least 2 current Maintainers from each relevant repository must approve the PR.
+3. There must be no objections from other maintainers. This can be achieved by either of the following, whichever occurs first:
     * Leaving the PR open for one week with no objections
     * Asking at the weekly community meeting whether there are any objections
+
+### Becoming a CODEOWNER
+
+You must already be a Maintainer of kgateway to become a CODEOWNER.
+
+1. Review at least 5 PRs and author 5 PRs in the repository under the specific CODEOWNERS group
+2. Get nominated by an existing CODEOWNER of that group and update the org.yaml and get a +1 from another CODEOWNER
+
+Additional specific CODEOWNER requirements can be decided by the CODEOWNER group and the community as needed. 
 
 ## Inactivity
 

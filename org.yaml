@@ -120,12 +120,11 @@ orgs:
       kgateway-api-owners:
         description: Maintainers of the kgateway envoy API
         maintainers:
+        - howardjohn
+        - jenshu
         - lgadban
         - shashankram
         - timflannagan
-        members:
-        - howardjohn
-        - jenshu
         - yuval-k
         privacy: closed
       agw-api-owners:

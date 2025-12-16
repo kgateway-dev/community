@@ -9,10 +9,11 @@ Please keep the table sorted.
 | Maintainer | GitHub ID | Specialization Areas | Company Affiliation |
 | ---- | ---- | ---- | ---- |
 | Art Berger | artberger | Docs | Solo.io |
-| Ashley Wang | ashleywang1 | Controller | Solo.io |
+| Ashley Wang | ashleywang1 | Controller | GEICO Insurance |
 | Christian Posta | christian-posta | Community, Docs | Solo.io |
 | Craig Box | craigbox | Community, Docs | Solo.io |
 | Daneyon Hansen | danehans | Controller, Community | Solo.io |
+| David Chandler | chandler-solo | Controller | Solo.io |
 | David Jumani | davidjumani | Controller | Solo.io |
 | Eitan Yarmush | EItanya | Controller, Proxy | Solo.io |
 | Ian Rudie | ilrudie | Community | Solo.io |

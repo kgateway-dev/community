@@ -131,11 +131,9 @@ orgs:
         description: Maintainers of the kgateway agentgateway API
         maintainers:
         - howardjohn
-        - lgadban
-        - npolshakova
-        members:
         - jenshu
         - lgadban
+        - npolshakova
         - shashankram
         - yuval-k
         privacy: closed

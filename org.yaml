@@ -127,7 +127,7 @@ orgs:
         - timflannagan
         - yuval-k
         privacy: closed
-      agw-api-owners:
+      agentgateway-api-owners:
         description: Maintainers of the kgateway agentgateway API
         maintainers:
         - howardjohn

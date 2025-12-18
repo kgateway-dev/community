@@ -127,6 +127,8 @@ orgs:
         - timflannagan
         - yuval-k
         privacy: closed
+        repos:
+          kgateway: write
       agentgateway-api-owners:
         description: Maintainers of the kgateway agentgateway API
         maintainers:
@@ -137,6 +139,8 @@ orgs:
         - shashankram
         - yuval-k
         privacy: closed
+        repos:
+          kgateway: write
       eligible-voters:
         description: ""
         maintainers:

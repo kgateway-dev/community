@@ -11,7 +11,9 @@ In addition, please:
 
 * Refrain from generating issues, comments, or PR descriptions with AI.
 * Refrain from "vibe coding". AI should be used to assist and accelerate code that you (the human!) would write on your own. You should only submit code that you fully understand and take ownership of.
+* Make sure that you have tested the changes and verify the code works as expected! If you have used AI to help write tests, make sure the tests are useful and are testing the feature correctly.
 * When using (non-trivial) AI assistance, please indicate this.
 
 These policies ensure the code base is kept at a high level of quality. Additionally, it ensures maintainers do not waste time reviewing low-quality AI-generated code.
 
+Issues or PRs that appear to violate these guidelines may be closed without review.

@@ -26,7 +26,7 @@ Recordings of the community meetings are available on a [google drive](https://d
 Review the following resources to contribute to the kgateway project.
 
 * For **code** contributions, review the [`CONTRIBUTING.md` file](https://github.com/kgateway-dev/community/blob/main/CONTRIBUTING.md).
-* For **doc** contributions, review the [Doc contributions guide](https://k8sgateway.io/docs/reference/contribution/).
+* For **doc** contributions, review the [Doc contributions guide](https://kgateway.dev/docs/envoy/latest/reference/contribution/).
 
 ## Governance
 

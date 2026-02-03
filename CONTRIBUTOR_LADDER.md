@@ -39,7 +39,7 @@ An Organization Member must meet the responsibilities and has the requirements o
     * Continues to contribute regularly, as demonstrated by having at least 3 GitHub contributions per year, as shown by [devstats](https://devstats.cncf.io/).
 * Requirements:
     * Must have successful contributions to the project, including at least one merged PR.
-    * Must be member of the #kgateway channel on the [CNCF Slack](https://slack.cncf.io).
+    * Must be member of the [`#kgateway`](https://cloud-native.slack.com/archives/C080D3PJMS4) and [`#kgateway-contributors`](https://cloud-native.slack.com/archives/C09LVSV2TV3) channels on the [CNCF Slack](https://slack.cncf.io).
     * Must have [2FA](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa) enabled on your GitHub account.
 * Privileges:
     * May be assigned Issues and Reviews.

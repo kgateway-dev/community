@@ -12,7 +12,7 @@ Requirements:
 
 - [ ] I have reviewed the project [contributing guide](https://github.com/kgateway-dev/community/blob/main/CONTRIBUTING.md)
 - [ ] I have enabled [2FA](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa) on my GitHub account
-- [ ] I have joined #kgateway channel on the [CNCF slack](https://slack.cncf.io)
+- [ ] I have joined both the [`#kgateway`](https://cloud-native.slack.com/archives/C080D3PJMS4) and [`#kgateway-contributors`](https://cloud-native.slack.com/archives/C09LVSV2TV3) channels on the [CNCF slack](https://slack.cncf.io)
 - [ ] In this PR, I have added my GitHub username to the `orgs.kgateway-dev.members` list in [org.yaml](https://github.com/kgateway-dev/community/blob/main/org.yaml) (maintaining alphabetical order)
 - [ ] In this PR, I have added my GitHub username to the `orgs.kgateway-dev.teams.org-members.members` list in [org.yaml](https://github.com/kgateway-dev/community/blob/main/org.yaml) (maintaining alphabetical order)
 

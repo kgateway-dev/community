@@ -10,7 +10,9 @@ This repository contains helpful information regarding the structure and functio
 
 If you're interested in participating with the kgateway community, come talk to us!
 
-* We are available in the [CNCF #kgateway slack channel](https://cloud-native.slack.com/archives/C080D3PJMS4). You can ask us any questions regarding using or contributing to kgateway.
+* We are available in [CNCF Slack](https://slack.cncf.io) in the following channels:
+  * [`#kgateway`](https://cloud-native.slack.com/archives/C080D3PJMS4): for general questions/discussions on using kgateway.
+  * [`#kgateway-contributors`](https://cloud-native.slack.com/archives/C09LVSV2TV3): for contributors or those interested in contributing to kgateway. This is a good place for things like posting PRs for review, seeking implementation help, looking for good first issues, etc.
 * Subscribe to the [kgateway calendar](https://calendar.google.com/calendar/u/1?cid=ZDI0MzgzOWExMGYwMzAxZjVkYjQ0YTU0NmQ1MDJmODA5YTBjZDcwZGI4ZTBhZGNhMzIwYWRlZjJkOTQ4MzU5Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t). You are welcome to ask us any kgateway questions/concerns or presenting your kgateway use cases.
 * To report security issues, please follow our [vulnerability disclosure best practices](CVE.md).
 * Find more information on the [kgateway website](https://k8sgateway.io/).

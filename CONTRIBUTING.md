@@ -71,7 +71,7 @@ We welcome community contributions and encourage members to work on issues. To m
 - Comment on the issue with your approach or ask questions if you need clarification
 - Provide regular updates (even brief ones) if work is taking longer than expected
 - Create draft PRs early to show progress and get feedback
-- Don't hesitate to ask for help in the issue comments or community channels like the #kgateway CNCF slack channel
+- Don't hesitate to ask for help in the issue comments or community channels like the [`#kgateway-contributors`](https://cloud-native.slack.com/archives/C09LVSV2TV3) CNCF slack channel
 
 ## Contributing code
 
@@ -96,7 +96,7 @@ Large features often touch many files, extend many lines of code, and often cove
 
 For large changes:
 1. **Open an issue first**: Open an issue about your bug in the [kgateway](https://github.com/kgateway-dev/kgateway) repo.
-2. **Message us on Slack**: Reach out to us to discuss your proposed changes in our [CNCF Slack channel, `#kgateway`](https://cloud-native.slack.com/archives/C080D3PJMS4).
+2. **Message us on Slack**: Reach out to us to discuss your proposed changes in our CNCF Slack channel, [`#kgateway-contributors`](https://cloud-native.slack.com/archives/C09LVSV2TV3).
 3. **Agree on implementation plan**: Write a plan for how this feature or bug fix should be implemented. Should this be one pull request or multiple incremental improvements? Who is going to do each part? Discuss it with us on Slack or join our [community meeting](https://calendar.google.com/calendar/u/1?cid=ZDI0MzgzOWExMGYwMzAxZjVkYjQ0YTU0NmQ1MDJmODA5YTBjZDcwZGI4ZTBhZGNhMzIwYWRlZjJkOTQ4MzU5Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 4. **Submit a draft PR**: It's important to get feedback as early as possible to ensure that any big improvements end up being merged. Open a draft pull request from your fork, label it `work in progress`, and start getting feedback.
 5. **Review**: At least one maintainer should sign off on the change before it’s merged. Look at the following [Code review](#code-review-guidelines) section to learn about what we're looking for.
@@ -217,7 +217,9 @@ The kgateway documentation lives in a separate repository: [`kgateway-dev/kgatew
 
 ## Get in touch
 
-* [CNCF Slack](https://cloud-native.slack.com/archives/C080D3PJMS4): The `#kgateway` channel is the best way to get in touch and ask quick questions of the community. 
+* [CNCF Slack](https://slack.cncf.io):
+  * The [`#kgateway`](https://cloud-native.slack.com/archives/C080D3PJMS4) channel is the best way to ask general questions about kgateway.
+  * The [`#kgateway-contributors`](https://cloud-native.slack.com/archives/C09LVSV2TV3) channel is the best way to ask questions about contributing to kgateway.
 * [GitHub discussions](https://github.com/kgateway-dev/kgateway/discussions): For more in-depth discussions and questions related to project functionality that is not as ephemeral as the Slack channel.
 * [GitHub issues](https://github.com/kgateway-dev/kgateway/issues): For raising bugs, feature requests, CI flakes, and other issues.
 * [Community calendar](https://calendar.google.com/calendar/u/1?cid=ZDI0MzgzOWExMGYwMzAxZjVkYjQ0YTU0NmQ1MDJmODA5YTBjZDcwZGI4ZTBhZGNhMzIwYWRlZjJkOTQ4MzU5Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t): For regular community meetings.

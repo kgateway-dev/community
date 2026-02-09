@@ -54,6 +54,46 @@ Additionally, the project has a [milestone](https://github.com/kgateway-dev/kgat
 
 Flaky tests are a common source of issues and a good place to start contributing to the project. You can find these issues by filtering with the `Type: CI Test Flake` label. If you see a test that is failing regularly, you can leave a comment asking if someone is working on it.
 
+#### Guidelines for First Contributions
+
+Welcome! If this is your first time contributing to kgateway, we’re excited to have you here!
+
+To help maintainers give you timely and thoughtful feedback, we have a few simple guidelines:
+
+1. **Max of Three PRs at a time**  
+   Non-organization members may have only **three open PR under active review** in the `kgateway-dev/kgateway` repository at a time. 
+   This helps us focus on providing constructive feedback on your contribution. The limit includes draft PRs and open PRs. 
+   Organization members are not subject to this limit.
+
+2. **Applying for organization membership**  
+   After you have **five PRs merged** into the repository, you can apply for kgateway organization membership. This allows 
+   you to open multiple PRs without being subject to the three-PR limit. See the [contributor ladder guide](CONTRIBUTOR_LADDER.md) 
+   for details on roles and how to apply.
+
+3. **Not sure what to work on?**  
+   A great place to start is issues labeled [`good first issue`](https://github.com/kgateway-dev/kgateway/issues?q=is%3Aissue+is%3Aopen+label%3A%22Good+First+Issue%22).  
+   These issues are intentionally scoped to be approachable and are well-suited for first-time contributors.
+
+### Guidelines for LFX Mentorship Program Candidates
+
+kgateway has participated in the [Linux Foundation's LFX Mentorship Program](https://lfx.linuxfoundation.org/tools/mentorship) for several cycles.
+
+Candidates are expected to follow **all general contribution guidelines**, including the [Guidelines for First Contributions](#guidelines-for-first-contributions).
+
+Additional expectations for LFX applicants:
+
+- We _strongly_ encourage you to focus on one high-quality PR for an issue you have been assigned instead of opening
+multiple PRs simultaneously. This ensures fair review capacity across all applicants.
+- Please follow the community guidelines for issue assignment. **Do not self-assign issues.** Many issues require 
+maintainer triage and scoping before they are ready to be worked on.
+- Post your PRs in the `#kgateway-contributors` Slack channel to get early feedback from maintainers.
+- Not following the AI policy may result in your LFX application being dismissed.
+
+Once you have three PRs merged into the repo, you may apply for organization membership, which removes the limit on open PRs. 
+See the [contributor ladder guide](CONTRIBUTOR_LADDER.md) for details on roles and how to apply.
+
+#### Organization members
+
 ## Community Assignments
 We welcome community contributions and encourage members to work on issues. To maintain an active and healthy development environment, we have the following policies:
 

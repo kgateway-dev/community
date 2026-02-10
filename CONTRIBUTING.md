@@ -8,6 +8,8 @@ Here are some of the ways you can contribute:
   - [Report Security Vulnerabilities](#report-security-vulnerabilities)
   - [File issues](#file-issues)
   - [Find something to work on](#find-something-to-work-on)
+  - [Guidelines for First Contributions](#guidelines-for-first-contributions)
+  - [Guidelines for LFX Mentorship Program Candidates](#guidelines-for-lfx-mentorship-program-candidates)
 - [Community Assignments](#community-assignments)
   - [Assignment Process](#assignment-process)
   - [Stale Assignment Policy](#stale-assignment-policy)
@@ -54,15 +56,15 @@ Additionally, the project has a [milestone](https://github.com/kgateway-dev/kgat
 
 Flaky tests are a common source of issues and a good place to start contributing to the project. You can find these issues by filtering with the `Type: CI Test Flake` label. If you see a test that is failing regularly, you can leave a comment asking if someone is working on it.
 
-#### Guidelines for First Contributions
+### Guidelines for First Contributions
 
 Welcome! If this is your first time contributing to kgateway, we’re excited to have you here!
 
 To help maintainers give you timely and thoughtful feedback, we have a few simple guidelines:
 
-1. **Max of Three PRs at a time**  
-   Non-organization members may have only **three open PR under active review** in the `kgateway-dev/kgateway` repository at a time. 
-   This helps us focus on providing constructive feedback on your contribution. The limit includes draft PRs and open PRs. 
+1. **Maximum of THREE PRs at a time**  
+   Non-organization members may have only **three open PRs under active review** in the `kgateway-dev/kgateway` repository at a time.
+   This helps us focus on providing constructive feedback on your contribution. The limit applies to all open PRs (including draft PRs).
    Organization members are not subject to this limit.
 
 2. **Applying for organization membership**  
@@ -86,13 +88,11 @@ Additional expectations for LFX applicants:
 multiple PRs simultaneously. This ensures fair review capacity across all applicants.
 - Please follow the community guidelines for issue assignment. **Do not self-assign issues.** Many issues require 
 maintainer triage and scoping before they are ready to be worked on.
-- Post your PRs in the `#kgateway-contributors` Slack channel to get early feedback from maintainers.
-- Not following the AI policy may result in your LFX application being dismissed.
+- Post your PRs in the [`#kgateway-contributors`](https://cloud-native.slack.com/archives/C09LVSV2TV3) Slack channel to get early feedback from maintainers.
+- Not following the [AI policy](/CODE-OF-CONDUCT.md#generative-ai-policy) may result in your LFX application being dismissed.
 
-Once you have three PRs merged into the repo, you may apply for organization membership, which removes the limit on open PRs. 
+Once you have five PRs merged into the repo, you may apply for organization membership, which removes the limit on open PRs. 
 See the [contributor ladder guide](CONTRIBUTOR_LADDER.md) for details on roles and how to apply.
-
-#### Organization members
 
 ## Community Assignments
 We welcome community contributions and encourage members to work on issues. To maintain an active and healthy development environment, we have the following policies:

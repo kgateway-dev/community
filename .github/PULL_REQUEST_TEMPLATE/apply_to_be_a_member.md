@@ -16,4 +16,4 @@ Requirements:
 - [ ] In this PR, I have added my GitHub username to the `orgs.kgateway-dev.members` list in [org.yaml](https://github.com/kgateway-dev/community/blob/main/org.yaml) (maintaining alphabetical order)
 - [ ] In this PR, I have added my GitHub username to the `orgs.kgateway-dev.teams.org-members.members` list in [org.yaml](https://github.com/kgateway-dev/community/blob/main/org.yaml) (maintaining alphabetical order)
 
-Provide a link to at least one PR that you have successfully pushed to one of the project's repos:
+Provide a link to at least five PRs that you have successfully pushed to one of the project's repos:

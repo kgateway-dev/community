@@ -122,6 +122,7 @@ orgs:
       kgateway-api-owners:
         description: Maintainers of the kgateway envoy API
         maintainers:
+        - andy-fong
         - davidjumani
         - howardjohn
         - jenshu

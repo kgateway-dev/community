@@ -122,23 +122,13 @@ orgs:
       kgateway-api-owners:
         description: Maintainers of the kgateway envoy API
         maintainers:
+        - andy-fong
+        - davidjumani
         - howardjohn
         - jenshu
         - lgadban
         - shashankram
         - timflannagan
-        - yuval-k
-        privacy: closed
-        repos:
-          kgateway: write
-      agentgateway-api-owners:
-        description: Maintainers of the kgateway agentgateway API
-        maintainers:
-        - howardjohn
-        - jenshu
-        - lgadban
-        - npolshakova
-        - shashankram
         - yuval-k
         privacy: closed
         repos:

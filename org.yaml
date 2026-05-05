@@ -1,6 +1,8 @@
 orgs:
   kgateway-dev:
     admins:
+    - andy-fong
+    - davidjumani
     - gateway-bot
     - ilevine
     - ilrudie
@@ -14,7 +16,6 @@ orgs:
     members:
     - 1shubham7
     - alexliu541
-    - andy-fong
     - arianaw66
     - artberger
     - aryanparashar24
@@ -24,7 +25,6 @@ orgs:
     - corsairier
     - craigbox
     - danehans
-    - davidjumani
     - dhaifley
     - dmitri-d
     - EItanya
@@ -76,17 +76,17 @@ orgs:
       controller-maintainers:
         description: Maintainers of the kgateway repo
         maintainers:
+        - andy-fong
+        - davidjumani
         - jenshu
         - lgadban
         - npolshakova
         - timflannagan
         - yuval-k
         members:
-        - andy-fong
         - ashleywang1
         - chandler-solo
         - danehans
-        - davidjumani
         - EItanya
         - howardjohn
         - ilackarms
@@ -154,6 +154,8 @@ orgs:
       org-members:
         description: Members of the org; may triage
         maintainers:
+        - andy-fong
+        - davidjumani
         - gateway-bot
         - ilevine
         - ilrudie
@@ -167,7 +169,6 @@ orgs:
         members:
         - 1shubham7
         - alexliu541
-        - andy-fong
         - arianaw66
         - artberger
         - aryanparashar24
@@ -177,7 +178,6 @@ orgs:
         - corsairier
         - craigbox
         - danehans
-        - davidjumani
         - dhaifley
         - dmitri-d
         - EItanya

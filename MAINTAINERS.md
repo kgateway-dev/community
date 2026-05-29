@@ -18,7 +18,7 @@ Please keep the table sorted.
 | David Jumani | davidjumani | Controller | Solo.io |
 | Eitan Yarmush | EItanya | Controller, Proxy | Solo.io |
 | Ian Rudie | ilrudie | Community | Solo.io |
-| Jacob Bohanon | jbohanon | Controller, Proxy  | Coinbase |
+| Jacob Bohanon | jbohanon | Controller, Proxy  | Solo.io |
 | Jahvon Dockery | jahvon | Controller | CarGurus |
 | Jenny Shu | jenshu | Controller, Community | Solo.io |
 | John Howard | howardjohn | Controller | Solo.io |

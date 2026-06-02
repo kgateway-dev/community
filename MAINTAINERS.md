@@ -23,6 +23,7 @@ Please keep the table sorted.
 | Jenny Shu | jenshu | Controller, Community | Solo.io |
 | John Howard | howardjohn | Controller | Solo.io |
 | Kevin Dorosh | kdorosh | Controller, Proxy | _unaffiliated_ |
+| Kristin Kronstain Brown | kristin-kronstain-brown | Docs | Solo.io |
 | Lawrence Gadban | lgadban | Controller | Solo.io |
 | Lin Sun | linsun | Community, Docs | Solo.io |
 | Nadine Spies | Nadine2016 | Docs | Solo.io |

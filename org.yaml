@@ -107,6 +107,7 @@ orgs:
         - ymesika
         privacy: closed
         repos:
+          dashboards: maintain
           kgateway: maintain
       documentation-maintainers:
         description: Maintainers of the kgateway.dev repo

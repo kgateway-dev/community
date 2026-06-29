@@ -19,10 +19,8 @@ Please keep the table sorted.
 | Eitan Yarmush | EItanya | Controller, Proxy | Solo.io |
 | Ian Rudie | ilrudie | Community | Solo.io |
 | Jacob Bohanon | jbohanon | Controller, Proxy  | Solo.io |
-| Jahvon Dockery | jahvon | Controller | CarGurus |
 | Jenny Shu | jenshu | Controller, Community | Solo.io |
 | John Howard | howardjohn | Controller | Solo.io |
-| Kevin Dorosh | kdorosh | Controller, Proxy | _unaffiliated_ |
 | Kristin Kronstain Brown | kristin-kronstain-brown | Docs | Solo.io |
 | Lawrence Gadban | lgadban | Controller | Solo.io |
 | Lin Sun | linsun | Community, Docs | Solo.io |
@@ -32,7 +30,6 @@ Please keep the table sorted.
 | Omar Hammami | puertomontt | Controller | Solo.io |
 | Petr McAllister | PetrMc | Controller | Solo.io |
 | Rachael Graham | Rachael-Graham | Docs | Solo.io |
-| Sai Ekbote | saiskee | Controller, Proxy | HubSpot |
 | Sam Heilbron | sam-heilbron | Controller | Solo.io |
 | Scott Weiss | ilackarms | Controller | Solo.io |
 | Seth Heidkamp | sheidkamp | Controller | Solo.io |
@@ -49,5 +46,10 @@ Please keep the table sorted.
 ## Emeritus
 
 | Name | GitHub ID |
-| ---- | ---- |
+| ---- | ---- | ---- | ---- |
+| Jahvon Dockery | jahvon | Controller | CarGurus |
+| Kevin Dorosh | kdorosh | Controller, Proxy | _unaffiliated_ |
+| Sai Ekbote | saiskee | Controller, Proxy | HubSpot |
+
+
 

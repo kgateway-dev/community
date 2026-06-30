@@ -45,11 +45,11 @@ Please keep the table sorted.
 
 ## Emeritus
 
-| Name | GitHub ID |
-| ---- | ---- | ---- | ---- |
-| Jahvon Dockery | jahvon | Controller | CarGurus |
-| Kevin Dorosh | kdorosh | Controller, Proxy | _unaffiliated_ |
-| Sai Ekbote | saiskee | Controller, Proxy | HubSpot |
+| Name | GitHub ID | Specialization Areas |
+| ---- | ---- | ---- |
+| Jahvon Dockery | jahvon | Controller |
+| Kevin Dorosh | kdorosh | Controller, Proxy |
+| Sai Ekbote | saiskee | Controller, Proxy |
 
 
 

@@ -26,7 +26,7 @@ Please keep the table sorted.
 | Lin Sun | linsun | Community, Docs | Solo.io |
 | Nadine Spies | Nadine2016 | Docs | Solo.io |
 | Nathan Fudenberg | nfuden | Controller, Proxy | Solo.io |
-| Nina Polshakova | npolshakova | Controller, Community | Solo.io |
+| Nina Polshakova | npolshakova | Controller, Community | Independent |
 | Omar Hammami | puertomontt | Controller | Solo.io |
 | Petr McAllister | PetrMc | Controller | Solo.io |
 | Rachael Graham | Rachael-Graham | Docs | Solo.io |

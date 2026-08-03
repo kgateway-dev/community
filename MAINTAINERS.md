@@ -12,7 +12,7 @@ Please keep the table sorted.
 | Art Berger | artberger | Docs | Solo.io |
 | Ashley Wang | ashleywang1 | Controller | GEICO Insurance |
 | Christian Posta | christian-posta | Community, Docs | Solo.io |
-| Craig Box | craigbox | Community, Docs | Solo.io |
+| Craig Box | craigbox | Community, Docs | Independent |
 | Daneyon Hansen | danehans | Controller, Community | Solo.io |
 | David Chandler | chandler-solo | Controller | Solo.io |
 | David Jumani | davidjumani | Controller | Solo.io |
@@ -30,7 +30,7 @@ Please keep the table sorted.
 | Omar Hammami | puertomontt | Controller | Solo.io |
 | Petr McAllister | PetrMc | Controller | Solo.io |
 | Rachael Graham | Rachael-Graham | Docs | Solo.io |
-| Sam Heilbron | sam-heilbron | Controller | Solo.io |
+| Sam Heilbron | sam-heilbron | Controller | Independent |
 | Scott Weiss | ilackarms | Controller | Solo.io |
 | Seth Heidkamp | sheidkamp | Controller | Solo.io |
 | Shane O'Donnell | Sodman | Controller | Solo.io |
@@ -38,8 +38,8 @@ Please keep the table sorted.
 | Steven Landow | stevenctl | Controller | Solo.io |
 | Tim Flannagan | timflannagan | Controller | Solo.io |
 | Tyler Schade | tjons | Controller | GEICO Insurance |
-| Wendie Cheung | wendeh | Docs | Solo.io |
-| Will Rigby-Hall | williamgrh | Docs | Solo.io |
+| Wendie Cheung | wendeh | Docs | Independent |
+| Will Rigby-Hall | williamgrh | Docs | Independent |
 | Yossi Mesika | ymesika | Controller | Solo.io |
 | Yuval Kohavi | yuval-k | Controller, Proxy | Solo.io |
 

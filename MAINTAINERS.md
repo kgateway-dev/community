@@ -12,7 +12,6 @@ Please keep the table sorted.
 | Art Berger | artberger | Docs | Solo.io |
 | Ashley Wang | ashleywang1 | Controller | GEICO Insurance |
 | Christian Posta | christian-posta | Community, Docs | Solo.io |
-| Craig Box | craigbox | Community, Docs | Independent |
 | Daneyon Hansen | danehans | Controller, Community | Solo.io |
 | David Chandler | chandler-solo | Controller | Solo.io |
 | David Jumani | davidjumani | Controller | Solo.io |
@@ -50,6 +49,4 @@ Please keep the table sorted.
 | Jahvon Dockery | jahvon | Controller |
 | Kevin Dorosh | kdorosh | Controller, Proxy |
 | Sai Ekbote | saiskee | Controller, Proxy |
-
-
-
+| Craig Box | craigbox | Community, Docs | Independent |

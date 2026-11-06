@@ -46,7 +46,7 @@ Please keep the table sorted.
 
 | Name | GitHub ID | Specialization Areas |
 | ---- | ---- | ---- |
+| Craig Box | craigbox | Community, Docs |
 | Jahvon Dockery | jahvon | Controller |
 | Kevin Dorosh | kdorosh | Controller, Proxy |
 | Sai Ekbote | saiskee | Controller, Proxy |
-| Craig Box | craigbox | Community, Docs | Independent |

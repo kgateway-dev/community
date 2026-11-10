@@ -8,6 +8,7 @@ Please keep the table sorted.
 
 | Maintainer | GitHub ID | Specialization Areas | Company Affiliation |
 | ---- | ---- | ---- | ---- |
+| Alexander Liu | alexliu541 | Controller | Solo.io |
 | Andy Fong | andy-fong | Controller, Proxy | Solo.io |
 | Art Berger | artberger | Docs | Solo.io |
 | Ashley Wang | ashleywang1 | Controller | GEICO Insurance |
